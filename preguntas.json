@@ -1,0 +1,851 @@
+[
+{ "epigrafe": 1, "question": "¿Qué principio físico permite que el anemómetro analógico muestre la velocidad indicada?", "options": ["La dilatación térmica de un material", "La expansión de un fuelle por presión dinámica", "La variación de resistencia eléctrica en un sensor"], "answer": 1, "explanation": "El anemómetro analógico recibe presión dinámica del tubo Pitot, que hace expandir un fuelle conectado mecánicamente a la aguja." },
+
+{ "epigrafe": 1, "question": "En los instrumentos analógicos, ¿qué componente transforma el movimiento del rotor en una señal visual para el piloto?", "options": ["El estator del transmisor", "El giroscopio inercial", "El potenciómetro del indicador"], "answer": 0, "explanation": "En sistemas síncronos, el rotor transmite la señal al estator, cuyos voltajes inducidos mueven el indicador." },
+
+{ "epigrafe": 1, "question": "El indicador de viraje y derrape analógico mide principalmente:", "options": ["La velocidad vertical y lateral", "La tasa de alabeo y la inclinación lateral", "El ángulo de ataque y la guiñada"], "answer": 1, "explanation": "El indicador de viraje y derrape muestra la tasa de alabeo y la coordinación lateral (resbalamiento o derrape)." },
+
+{ "epigrafe": 1, "question": "El Radio Magnetic Indicator (RMI) se conecta típicamente a:", "options": ["Un receptor ADF", "Un altímetro barométrico", "Un transmisor de presión diferencial"], "answer": 0, "explanation": "El RMI está vinculado al ADF para mostrar la orientación hacia la estación de radio." },
+
+{ "epigrafe": 1, "question": "¿Cuál fue la primera aeronave comercial en integrar un sistema EIS (Electronic Instrument System)?", "options": ["Airbus A310", "McDonnell Douglas MD-80", "Boeing 757"], "answer": 1, "explanation": "El MD-80 en 1979 fue el primero en incorporar un sistema EIS con pantallas CRT." },
+
+{ "epigrafe": 1, "question": "Las primeras pantallas digitales en cabinas de cristal estaban basadas en:", "options": ["LCD monocromáticos", "Pantallas CRT", "MicroLED"], "answer": 1, "explanation": "Los primeros EIS utilizaron CRT antes de que los LCD planos los reemplazaran." },
+
+{ "epigrafe": 1, "question": "El Attitude Direction Indicator (ADI) en su versión digital recibe comandos de:", "options": ["El sistema de piloto automático", "El computador de director de vuelo", "El giroscopio vertical"], "answer": 1, "explanation": "El EADI muestra la actitud y recibe órdenes de guiado del Flight Director." },
+
+{ "epigrafe": 1, "question": "El Electronic Horizontal Situation Indicator (EHSI) combina información procedente de:", "options": ["ILS y VOR/GPS", "Radar meteorológico y altímetro", "Sistema TCAS y transpondedor"], "answer": 0, "explanation": "El EHSI integra datos de VOR/GPS para navegación y del ILS para aproximación." },
+
+{ "epigrafe": 1, "question": "En el Boeing 777, el Primary Flight Display (PFD) sustituye principalmente al:", "options": ["Altímetro barométrico analógico", "Electronic Attitude Director Indicator (EADI)", "Velocímetro de aguja"], "answer": 1, "explanation": "El PFD reemplaza al EADI y concentra información de actitud, velocidad, altitud, modos de vuelo y TCAS." },
+
+{ "epigrafe": 1, "question": "El sistema EICAS en Boeing o ECAM en Airbus tiene como una de sus funciones:", "options": ["Calibrar automáticamente los sensores de navegación", "Monitorear parámetros de motor y sistemas de la aeronave", "Gestionar la base de datos de planes de vuelo"], "answer": 1, "explanation": "EICAS/ECAM supervisa motores y sistemas de la aeronave, proporcionando alertas y ayudas al diagnóstico." },
+
+{ "epigrafe": 1, "question": "En los primeros sistemas EIS, ¿qué dispositivo generaba los formatos visuales de los instrumentos electrónicos?", "options": ["Computadores de misión", "Generadores de símbolos (symbol generators)", "Unidades de referencia inercial"], "answer": 1, "explanation": "Los symbol generators reciben datos de distintos sistemas y producen los gráficos mostrados en EADI, EHSI y MFD." },
+
+{ "epigrafe": 1, "question": "El Navigation Display (ND) en el Boeing 777 reemplaza principalmente al:", "options": ["Electronic Horizontal Situation Indicator (EHSI)", "Altímetro de reserva", "Radar de vigilancia secundario"], "answer": 0, "explanation": "El ND sustituye al EHSI tradicional y añade información de GPS, VOR, ILS y meteorología." },
+
+{ "epigrafe": 1, "question": "En un sistema EICAS, un aviso de nivel 3 corresponde a:", "options": ["Un fallo menor sin impacto en la seguridad de vuelo", "Un fallo con degradación de sistemas no críticos", "Una condición grave como fuego, pérdida de control o entrada en pérdida"], "answer": 2, "explanation": "Los avisos de nivel 3 indican condiciones críticas como fuego o pérdida, con alerta sonora repetitiva y luz roja." },
+
+{ "epigrafe": 1, "question": "La principal ventaja de las pantallas LCD frente a las CRT en cabinas de cristal es:", "options": ["Mayor definición en color", "Menor peso, consumo y generación de calor", "Capacidad de mostrar datos en 3D"], "answer": 1, "explanation": "Las LCD reducen peso, consumo eléctrico y calor, además de ocupar menos espacio." },
+
+{ "epigrafe": 1, "question": "El Multi-Function Display (MFD) en un sistema EFIS puede asumir la función de:", "options": ["Pantalla de respaldo de EADI o EHSI", "Registro de parámetros de caja negra", "Controlador de piloto automático"], "answer": 0, "explanation": "El MFD puede mostrar información de vuelo o navegación en caso de fallo del EADI/EHSI." },
+
+{ "epigrafe": 1, "question": "¿Qué función adicional incluye el MFD en algunas aeronaves?", "options": ["Mostrar imágenes del sistema de cámaras de rodaje en tierra", "Calcular la performance de motor en tiempo real", "Gestionar la secuencia de checklist electrónicas con voz"], "answer": 0, "explanation": "En ciertos aviones, el MFD también muestra imágenes de las cámaras de rodaje para apoyo en maniobras en tierra." },
+
+{ "epigrafe": 1, "question": "En el diseño redundante del EIS del Boeing 777, ¿cómo se asegura la continuidad en caso de fallo de un display?", "options": ["Pantallas intercambiables entre piloto y copiloto", "Un bus de datos paralelo dedicado", "La activación automática de un generador de símbolos de respaldo"], "answer": 0, "explanation": "Las pantallas del capitán y copiloto son intercambiables, reduciendo la necesidad de repuestos específicos." },
+
+{ "epigrafe": 1, "question": "El EICAS permite al piloto registrar manualmente un evento presionando:", "options": ["Un interruptor del generador de símbolos", "Un botón de 'event record' en el panel de selección de display", "El selector del sistema de gestión de vuelo (FMS)"], "answer": 1, "explanation": "El botón de 'event record' en el panel de selección permite guardar parámetros de vuelo y fallos para mantenimiento." },
+
+{ "epigrafe": 1, "question": "Los datos de desviación de rumbo, ángulo de deriva y distancia al destino mostrados en un EHSI proceden de:", "options": ["El DME y el INS", "El transpondedor y el TCAS", "El altímetro barométrico y el ADC"], "answer": 0, "explanation": "El EHSI integra datos del Distance Measuring Equipment (DME) y del Inertial Navigation System (INS)." },
+
+{ "epigrafe": 1, "question": "En el ECAM de Airbus, un fallo de nivel 2 se caracteriza por:", "options": ["Luz ámbar fija y un aviso acústico único", "Luz verde intermitente sin alarma sonora", "Chime repetitivo con luz roja parpadeante"], "answer": 0, "explanation": "El nivel 2 corresponde a fallos no críticos para la seguridad de vuelo, indicados con un chime único y luz ámbar." },
+
+{ "epigrafe": 2, "question": "¿Qué característica define principalmente a un sistema de numeración?", "options": ["El número de símbolos utilizados como base", "La forma en que se representan los números negativos", "El número de dígitos permitidos en cada cifra"], "answer": 0, "explanation": "Cada sistema numérico se define por su base, que indica cuántos símbolos se utilizan (decimal: 10, binario: 2, etc.)." },
+
+{ "epigrafe": 2, "question": "En el sistema decimal, el número 100 representa:", "options": ["Diez elevado a la potencia de 1", "Una unidad en la posición de centenas y ceros en decenas y unidades", "El mismo valor que en binario"], "answer": 1, "explanation": "El 100 en decimal significa 1 en la posición de centenas (10²) y 0 en decenas y unidades." },
+
+{ "epigrafe": 2, "question": "En el sistema binario, ¿qué representa el número 1011₂?", "options": ["11 en decimal", "13 en decimal", "15 en decimal"], "answer": 0, "explanation": "1011₂ equivale a 1×8 + 0×4 + 1×2 + 1×1 = 11 decimal." },
+
+{ "epigrafe": 2, "question": "La posición más a la derecha en un número binario corresponde siempre a:", "options": ["El bit de signo", "El bit menos significativo (LSB)", "El bit más significativo (MSB)"], "answer": 1, "explanation": "El dígito de más a la derecha es el Least Significant Bit (LSB), con valor 2⁰." },
+
+{ "epigrafe": 2, "question": "Para convertir un número decimal en binario se utiliza:", "options": ["La suma sucesiva de potencias de 2", "La división sucesiva entre 2", "La multiplicación por factores de normalización"], "answer": 1, "explanation": "La conversión decimal a binario se hace dividiendo sucesivamente entre 2 y anotando los restos." },
+
+{ "epigrafe": 2, "question": "El número binario 10010111₂ equivale en decimal a:", "options": ["147", "151", "159"], "answer": 1, "explanation": "1×128 + 0×64 + 0×32 + 1×16 + 0×8 + 1×4 + 1×2 + 1×1 = 151." },
+
+{ "epigrafe": 2, "question": "¿Qué ventaja principal aporta el sistema octal frente al binario?", "options": ["Facilita representar grandes números agrupando bits en grupos de 3", "Reduce el número de operaciones aritméticas necesarias", "Elimina la necesidad de conversión a decimal"], "answer": 0, "explanation": "El octal agrupa 3 bits por dígito, simplificando la lectura y escritura de números binarios largos." },
+
+{ "epigrafe": 2, "question": "El número octal 42₈ equivale en decimal a:", "options": ["32", "34", "36"], "answer": 1, "explanation": "4×8¹ + 2×8⁰ = 32 + 2 = 34." },
+
+{ "epigrafe": 2, "question": "En el sistema hexadecimal, el símbolo 'A' representa:", "options": ["9", "10", "11"], "answer": 1, "explanation": "En hexadecimal, A equivale a 10 decimal." },
+
+{ "epigrafe": 2, "question": "El número hexadecimal 1A₁₆ equivale a:", "options": ["24", "25", "26"], "answer": 2, "explanation": "1×16¹ + 10×16⁰ = 16 + 10 = 26 decimal." },
+
+{ "epigrafe": 2, "question": "¿Cómo se agrupan los bits para convertir de binario a hexadecimal?", "options": ["En grupos de 2 bits", "En grupos de 3 bits", "En grupos de 4 bits"], "answer": 2, "explanation": "El sistema hexadecimal utiliza agrupaciones de 4 bits por cada dígito." },
+
+{ "epigrafe": 2, "question": "El número decimal 10010 convertido a hexadecimal es:", "options": ["27A", "64", "3E8"], "answer": 1, "explanation": "10010 decimal se convierte a 0011 0010 0100 en binario y luego a 64 en hexadecimal." },
+
+{ "epigrafe": 2, "question": "En el sistema BCD, el número decimal 82 se representa como:", "options": ["1010010", "1000 0010", "0101 0010"], "answer": 1, "explanation": "BCD separa cada dígito: 8 = 1000 y 2 = 0010, quedando 1000 0010." },
+
+{ "epigrafe": 2, "question": "Una característica del BCD frente al binario puro es:", "options": ["Permite representar cualquier número con menos bits", "Requiere más bits para representar el mismo número", "No puede representar cifras superiores a 5"], "answer": 1, "explanation": "El BCD es menos eficiente que el binario porque usa 4 bits para cada dígito decimal." },
+
+{ "epigrafe": 3, "question": "¿Qué diferencia fundamental existe entre una señal analógica y una digital?", "options": ["Las señales analógicas son discretas y las digitales continuas", "Las señales analógicas son continuas y las digitales discretas", "Las señales analógicas no varían en el tiempo"], "answer": 1, "explanation": "La señal analógica varía de manera continua en tiempo y amplitud, mientras que la digital es discreta." },
+
+{ "epigrafe": 3, "question": "En un sistema analógico de presión de aceite con transmisor síncrono, ¿qué elemento hace girar el rotor del transmisor?", "options": ["Un sensor piezoeléctrico", "Un fuelle de presión conectado mecánicamente", "Un estator excitado por corriente alterna"], "answer": 1, "explanation": "El movimiento del fuelle por la presión se transmite al rotor del síncrono." },
+
+{ "epigrafe": 3, "question": "Una señal de corriente alterna analógica puede representarse como:", "options": ["Una onda cuadrada", "Una onda sinusoidal", "Un tren de impulsos digitales"], "answer": 1, "explanation": "Las señales analógicas AC se representan típicamente con ondas sinusoidales." },
+
+{ "epigrafe": 3, "question": "¿Qué característica define a un dato digital frente a uno analógico?", "options": ["Posee infinitos valores intermedios", "Tiene solo dos niveles de tensión representados como 0 y 1", "No se puede almacenar en un computador"], "answer": 1, "explanation": "El dato digital se representa con dos niveles (alto/bajo), que corresponden a 1 y 0 en binario." },
+
+{ "epigrafe": 3, "question": "¿Qué realiza un conversor Analógico-Digital (ADC)?", "options": ["Convierte datos binarios en señales analógicas", "Convierte señales analógicas en datos digitales discretos", "Multiplica la señal analógica por un factor de cuantización"], "answer": 1, "explanation": "El ADC transforma señales analógicas continuas en secuencias digitales discretas." },
+
+{ "epigrafe": 3, "question": "El error de cuantificación en un ADC se reduce:", "options": ["Aumentando el número de bits por muestra", "Reduciendo la frecuencia de muestreo", "Filtrando la señal de entrada"], "answer": 0, "explanation": "Más bits implican mayor resolución, reduciendo el tamaño del paso de cuantización y, por tanto, el error." },
+
+{ "epigrafe": 3, "question": "La relación entre la amplitud máxima de entrada y el tamaño del paso de cuantificación en un ADC se denomina:", "options": ["Resolución", "Dinamic range (rango dinámico)", "Relación señal-ruido"], "answer": 1, "explanation": "El rango dinámico es la relación entre la señal máxima que puede medirse y el tamaño mínimo de cuantización." },
+
+{ "epigrafe": 3, "question": "Un conversor Digital-Analógico (DAC) genera a su salida:", "options": ["Un tren de pulsos digitales", "Una señal continua aproximada a la original", "Un espectro de frecuencias cuantizado"], "answer": 1, "explanation": "El DAC reconstruye una señal continua a partir de datos digitales discretos." },
+
+{ "epigrafe": 3, "question": "En un DAC de tipo escalera resistiva (R-2R), la entrada binaria controla:", "options": ["La conmutación de resistencias que determinan el voltaje de salida", "El ancho de pulso de una señal cuadrada", "El número de muestras por segundo"], "answer": 0, "explanation": "En el DAC R-2R, cada bit activa una rama resistiva que contribuye proporcionalmente al voltaje de salida." },
+
+{ "epigrafe": 3, "question": "El proceso de filtrado posterior a un DAC tiene como objetivo:", "options": ["Eliminar los componentes de alta frecuencia producidos por la conversión", "Reducir la resolución del sistema", "Convertir la señal continua en discreta"], "answer": 0, "explanation": "El filtro de reconstrucción elimina las componentes de alta frecuencia, suavizando la señal." },
+
+{ "epigrafe": 3, "question": "Un teléfono convierte la voz en datos digitales y luego los transmite. Al ser recibidos, se convierten de nuevo en:", "options": ["Una señal digital comprimida", "Una señal analógica con menor fidelidad que la original", "Una señal modulada en amplitud"], "answer": 1, "explanation": "El proceso analógico-digital-analógico introduce pérdidas de fidelidad, reproduciendo la voz con menor calidad." },
+
+{ "epigrafe": 4, "question": "Antes de la introducción de buses digitales, la interconexión de sistemas en aeronaves se realizaba principalmente mediante:", "options": ["Buses de fibra óptica", "Cableado punto a punto con señales analógicas", "Redes inalámbricas internas"], "answer": 1, "explanation": "Se utilizaban conexiones punto a punto con señales analógicas, lo que implicaba gran peso y fallos de conectores." },
+
+{ "epigrafe": 4, "question": "Una de las ventajas principales de introducir buses de datos en aeronaves es:", "options": ["Mayor resistencia a descargas atmosféricas", "Reducción del peso y del cableado", "Mayor autonomía de vuelo"], "answer": 1, "explanation": "Al eliminar gran parte del cableado punto a punto, se redujo peso y se aumentó la fiabilidad." },
+
+{ "epigrafe": 4, "question": "El concepto de multiplexación por división en el tiempo (TDM) en buses de datos permite:", "options": ["Transmitir diferentes señales simultáneamente usando distintas frecuencias", "Compartir un mismo canal en intervalos de tiempo asignados", "Enviar un mensaje a múltiples destinos mediante radiación electromagnética"], "answer": 1, "explanation": "El TDM divide el tiempo en intervalos, asignando cada uno a una señal distinta dentro del mismo canal." },
+
+{ "epigrafe": 4, "question": "El bus MIL-STD-1553B se caracteriza principalmente por ser:", "options": ["Un bus síncrono y dúplex completo", "Un bus asíncrono y semidúplex", "Un bus síncrono de alta velocidad dúplex completo"], "answer": 1, "explanation": "MIL-STD-1553B es un bus asíncrono semidúplex: transmite en ambas direcciones, pero no al mismo tiempo." },
+
+{ "epigrafe": 4, "question": "La velocidad de transferencia de datos típica del bus MIL-STD-1553B es:", "options": ["100 kbps", "1 Mbps", "10 Mbps"], "answer": 1, "explanation": "El bus MIL-STD-1553B transmite a 1 millón de bits por segundo (1 Mbps)." }
+,
+{ "epigrafe": 4, "question": "En la arquitectura del bus MIL-STD-1553B, el control de todas las transferencias lo ejerce:", "options": ["El Bus Controller (BC)", "El Bus Monitor (BM)", "El Remote Terminal (RT)"], "answer": 0, "explanation": "El Bus Controller inicia y controla todas las transferencias, mientras que los RT solo responden a comandos." },
+
+{ "epigrafe": 4, "question": "El Bus Monitor (BM) en el estándar 1553B tiene como función principal:", "options": ["Generar las señales de sincronización para el bus", "Supervisar las transferencias para asegurar que no haya errores", "Enviar comandos de broadcast a todos los terminales"], "answer": 1, "explanation": "El BM supervisa las transferencias para verificar su corrección, pero no inicia comunicaciones." },
+
+{ "epigrafe": 4, "question": "El número máximo de Remote Terminals (RT) que pueden coexistir en un bus MIL-STD-1553B es:", "options": ["16", "31", "64"], "answer": 1, "explanation": "El bus admite hasta 31 RT conectados junto al Bus Controller." },
+
+{ "epigrafe": 4, "question": "En el MIL-STD-1553B, cuando se desea transmitir de un RT a otro, ¿cómo se realiza la comunicación?", "options": ["El RT emisor transmite directamente al RT receptor", "El Bus Controller ordena primero a un RT transmitir y luego a otro recibir", "El Bus Monitor autoriza el intercambio entre RTs"], "answer": 1, "explanation": "Los RT no pueden iniciar transferencias; el BC debe ordenar la transmisión y recepción." },
+
+{ "epigrafe": 4, "question": "La topología típica de un bus 1553B se describe como:", "options": ["Un bus simple con conexiones radiales mediante transformadores", "Una red en anillo redundante", "Una malla completa entre terminales"], "answer": 0, "explanation": "El 1553B utiliza un bus central con derivaciones mediante transformadores o acoplamientos directos." },
+
+{ "epigrafe": 4, "question": "En el 1553B, el acoplamiento directo de un terminal al bus limita la longitud máxima del stub a:", "options": ["1 pie", "10 pies", "20 pies"], "answer": 0, "explanation": "Con acoplamiento directo el stub no debe superar 1 pie para evitar degradación de la señal." },
+
+{ "epigrafe": 4, "question": "Si se usa acoplamiento mediante transformador en un bus 1553B, la longitud máxima de stub permitida es:", "options": ["1 pie", "10 pies", "20 pies"], "answer": 2, "explanation": "El uso de transformador permite stubs de hasta 20 pies." },
+
+{ "epigrafe": 4, "question": "Una característica de fiabilidad en el bus 1553B es:", "options": ["La utilización de pares de hilos trenzados blindados con aislamiento por transformador", "El uso de fibra óptica multimodo para redundancia", "El empleo de conectores coaxiales de alta frecuencia"], "answer": 0, "explanation": "El 1553B emplea pares trenzados blindados y acoplamiento por transformador para evitar fallos de cortocircuito." },
+
+{ "epigrafe": 4, "question": "El formato de palabra en el MIL-STD-1553B es de:", "options": ["8 bits", "16 bits", "20 bits"], "answer": 2, "explanation": "Cada palabra transmitida en el 1553B es de 20 bits, incluyendo sincronización, datos y paridad." },
+
+{ "epigrafe": 4, "question": "En una transmisión de broadcast en 1553B, el Bus Controller:", "options": ["Solicita confirmación de todos los RT", "No espera respuesta de los RT para evitar colisiones", "Designa un RT específico para responder en nombre de los demás"], "answer": 1, "explanation": "En broadcast no hay respuesta de los RT para evitar colisiones en el bus." }
+,
+{ "epigrafe": 4, "question": "El estándar ARINC 429 utiliza como medio de transmisión:", "options": ["Cable coaxial", "Pares trenzados blindados", "Fibra óptica"], "answer": 1, "explanation": "ARINC 429 transmite datos en serie mediante pares trenzados blindados, minimizando interferencias." },
+
+{ "epigrafe": 4, "question": "La velocidad típica de transmisión de ARINC 429 es:", "options": ["100 kbps y 12,5 kbps", "1 Mbps y 500 kbps", "10 Mbps"], "answer": 0, "explanation": "ARINC 429 opera en dos velocidades estándar: alta velocidad (100 kbps) y baja velocidad (12,5 kbps)." },
+
+{ "epigrafe": 4, "question": "Cada palabra de datos en ARINC 429 tiene:", "options": ["16 bits", "20 bits", "32 bits"], "answer": 2, "explanation": "La palabra ARINC 429 está compuesta por 32 bits, incluyendo datos, etiqueta y paridad." },
+
+{ "epigrafe": 4, "question": "El formato de transmisión de ARINC 429 es:", "options": ["Asíncrono", "Síncrono, unidireccional", "Síncrono, bidireccional"], "answer": 1, "explanation": "ARINC 429 transmite de manera síncrona y unidireccional, de un transmisor a múltiples receptores." },
+
+{ "epigrafe": 4, "question": "El máximo número de receptores que puede tener un único transmisor en ARINC 429 es:", "options": ["10", "20", "50"], "answer": 0, "explanation": "Un transmisor ARINC 429 puede enviar datos a un máximo de 20 receptores, aunque la configuración típica es hasta 10." },
+
+{ "epigrafe": 4, "question": "ARINC 629, a diferencia de ARINC 429, permite:", "options": ["La comunicación full-duplex", "Múltiples transmisores en el mismo bus", "Mayor velocidad de transmisión"], "answer": 1, "explanation": "El estándar ARINC 629 admite múltiples transmisores y receptores compartiendo un mismo bus." },
+
+{ "epigrafe": 4, "question": "El método de acceso al medio en ARINC 629 se basa en:", "options": ["Control centralizado por un bus controller", "Un esquema de tiempo de espera distribuido (token-like)", "Asignación fija de slots de tiempo"], "answer": 1, "explanation": "ARINC 629 utiliza un protocolo de espera distribuida, evitando colisiones sin un controlador central." },
+
+{ "epigrafe": 4, "question": "La velocidad de transmisión de ARINC 629 es aproximadamente:", "options": ["100 kbps", "1 Mbps", "2 Mbps"], "answer": 1, "explanation": "El estándar ARINC 629 transmite a 1 Mbps, similar al bus MIL-STD-1553B." },
+
+{ "epigrafe": 4, "question": "Una ventaja principal de ARINC 629 frente a ARINC 429 es:", "options": ["Elimina la necesidad de transformadores de aislamiento", "Permite múltiples fuentes de transmisión en el mismo bus", "Soporta comunicación inalámbrica entre módulos"], "answer": 1, "explanation": "La innovación de ARINC 629 es admitir múltiples fuentes en el mismo bus, mejorando la flexibilidad del sistema." },
+
+{ "epigrafe": 4, "question": "En una red de aviónica moderna basada en Ethernet (ARINC 664 AFDX), el concepto clave de seguridad de datos es:", "options": ["El uso de redundancia de buses duales", "La transmisión en modo broadcast masivo", "La compresión de datos en tiempo real"], "answer": 0, "explanation": "ARINC 664 AFDX utiliza redundancia de enlaces y control estricto de tráfico para garantizar fiabilidad y seguridad." }
+,
+{ "epigrafe": 4, "question": "Una característica fundamental de ARINC 664 AFDX frente a Ethernet estándar es:", "options": ["Introduce conmutación determinista con Virtual Links", "Elimina la necesidad de switches de red", "Utiliza exclusivamente fibra óptica"], "answer": 0, "explanation": "ARINC 664 AFDX añade Virtual Links que aseguran determinismo en el tráfico, algo no presente en Ethernet estándar." },
+
+{ "epigrafe": 4, "question": "La velocidad de transmisión típica en ARINC 664 AFDX es:", "options": ["10 Mbps", "100 Mbps", "1 Gbps"], "answer": 1, "explanation": "ARINC 664 AFDX utiliza Ethernet a 100 Mbps como base de transmisión." },
+
+{ "epigrafe": 4, "question": "Una diferencia clave entre ARINC 429 y ARINC 664 es:", "options": ["ARINC 429 es unidireccional, ARINC 664 es bidireccional", "ARINC 429 utiliza fibra óptica, ARINC 664 cable coaxial", "ARINC 429 transmite en 64 bits, ARINC 664 en 32 bits"], "answer": 0, "explanation": "ARINC 429 es unidireccional mientras que ARINC 664 permite comunicación bidireccional a través de Ethernet." },
+
+{ "epigrafe": 4, "question": "IEEE 1394 (FireWire) en aplicaciones aeronáuticas se utiliza principalmente para:", "options": ["Distribución de video y datos de alta velocidad", "Control redundante de actuadores primarios", "Transmisión de comandos de navegación"], "answer": 0, "explanation": "IEEE 1394 FireWire se implementa en aeronaves para transmisión de video y datos de alta velocidad." },
+
+{ "epigrafe": 4, "question": "Una ventaja de IEEE 1394 sobre otros buses tradicionales es:", "options": ["Permite topologías en árbol y anillo", "Requiere menos blindaje electromagnético", "Utiliza palabras de 16 bits en vez de 32"], "answer": 0, "explanation": "IEEE 1394 admite topologías flexibles en árbol o anillo, mejorando la escalabilidad." },
+
+{ "epigrafe": 5, "question": "Una puerta lógica es un circuito que:", "options": ["Amplifica señales analógicas", "Realiza operaciones booleanas sobre entradas digitales", "Transforma señales analógicas en digitales"], "answer": 1, "explanation": "Las puertas lógicas son circuitos digitales que implementan funciones booleanas (AND, OR, NOT, etc.)." },
+
+{ "epigrafe": 5, "question": "La tabla de verdad de una puerta NOT refleja que:", "options": ["La salida siempre es 1", "La salida es el inverso lógico de la entrada", "La salida es la suma de entradas"], "answer": 1, "explanation": "La puerta NOT invierte el valor lógico: 1 → 0 y 0 → 1." },
+
+{ "epigrafe": 5, "question": "Una puerta buffer se utiliza principalmente para:", "options": ["Invertir la señal de entrada", "Reforzar la señal sin modificar su estado lógico", "Detectar cambios en la frecuencia de reloj"], "answer": 1, "explanation": "El buffer entrega la misma señal de entrada, pero con mayor capacidad de corriente y estabilidad." },
+
+{ "epigrafe": 5, "question": "En una puerta AND de dos entradas, la salida será 1 únicamente si:", "options": ["Al menos una entrada es 1", "Todas las entradas son 1", "Todas las entradas son 0"], "answer": 1, "explanation": "La puerta AND solo da salida 1 cuando todas sus entradas están en 1." },
+
+{ "epigrafe": 5, "question": "La función de una puerta OR de dos entradas es:", "options": ["Dar 1 cuando al menos una entrada es 1", "Dar 1 únicamente cuando ambas entradas son 1", "Dar 0 cuando ambas entradas son diferentes"], "answer": 0, "explanation": "La puerta OR produce 1 si al menos una de sus entradas es 1." }
+,
+{ "epigrafe": 5, "question": "Una puerta NAND de dos entradas produce salida 0 únicamente cuando:", "options": ["Todas las entradas son 1", "Todas las entradas son 0", "Las entradas son diferentes"], "answer": 0, "explanation": "La puerta NAND es la negación de la AND, por lo que solo da 0 si todas las entradas son 1." },
+
+{ "epigrafe": 5, "question": "La principal ventaja de la puerta NAND en electrónica digital es:", "options": ["Permite implementar cualquier otra puerta lógica", "Reduce el consumo eléctrico en circuitos TTL", "Convierte señales analógicas en digitales"], "answer": 0, "explanation": "La puerta NAND es funcionalmente completa: se pueden construir todas las demás puertas con ella." },
+
+{ "epigrafe": 5, "question": "Una puerta NOR exclusiva (XNOR) entrega salida 1 cuando:", "options": ["Las entradas son diferentes", "Las entradas son iguales", "Todas las entradas son 0"], "answer": 1, "explanation": "La XNOR da 1 únicamente cuando todas las entradas tienen el mismo valor lógico." },
+
+{ "epigrafe": 5, "question": "En una puerta XOR de dos entradas, la salida será 1 si:", "options": ["Ambas entradas son iguales", "Las entradas son diferentes", "Todas las entradas son 1"], "answer": 1, "explanation": "La XOR (OR exclusiva) produce 1 cuando sus entradas son diferentes." },
+
+{ "epigrafe": 5, "question": "La expresión lógica ¬(A + B) corresponde a:", "options": ["Puerta NAND", "Puerta NOR", "Puerta XOR"], "answer": 1, "explanation": "¬(A + B) representa la operación NOR, la negación de la OR." },
+
+{ "epigrafe": 5, "question": "El concepto de 'lógica negativa' se refiere a:", "options": ["Interpretar el nivel alto como 1", "Interpretar el nivel bajo como 1", "Invertir siempre la señal de salida"], "answer": 1, "explanation": "En lógica negativa, el nivel bajo (0V) se interpreta como 1 lógico y el nivel alto como 0." },
+
+{ "epigrafe": 5, "question": "Un flip-flop SR construido con puertas NOR funciona almacenando:", "options": ["Un bit de información", "Un byte de información", "Un número binario de 4 bits"], "answer": 0, "explanation": "Los flip-flops básicos SR permiten almacenar un único bit de memoria digital." },
+
+{ "epigrafe": 5, "question": "Un sumador binario completo (full adder) combina:", "options": ["Dos bits de entrada y un acarreo", "Cuatro bits de entrada y dos salidas", "Un bit y una palabra de 8 bits"], "answer": 0, "explanation": "El full adder suma dos bits más un bit de acarreo, entregando suma y nuevo acarreo." },
+
+{ "epigrafe": 5, "question": "En aplicaciones aeronáuticas, los circuitos lógicos se utilizan para:", "options": ["Implementar sistemas de control de vuelo y protecciones", "Reducir el consumo de combustible", "Convertir señales de radio en voz"], "answer": 0, "explanation": "Los circuitos lógicos permiten gestionar sistemas críticos de control y seguridad en aeronaves." },
+
+{ "epigrafe": 5, "question": "Una de las aplicaciones típicas de puertas lógicas en aviónica es:", "options": ["Controlar la activación de alarmas de advertencia", "Ampliar la capacidad de memoria RAM", "Mejorar la resolución de pantallas LCD"], "answer": 0, "explanation": "Las puertas lógicas se emplean en la lógica de alarmas y sistemas de seguridad del cockpit." }
+,
+{ "epigrafe": 6, "question": "En la arquitectura básica de un ordenador, la Unidad de Control se encarga de:", "options": ["Ejecutar operaciones aritméticas", "Coordinar y dirigir el flujo de datos e instrucciones", "Almacenar resultados temporales"], "answer": 1, "explanation": "La Unidad de Control gestiona el flujo de datos entre los diferentes bloques del procesador." },
+
+{ "epigrafe": 6, "question": "La arquitectura de Von Neumann se caracteriza principalmente por:", "options": ["Separar físicamente memoria de datos y memoria de instrucciones", "Compartir un único bus para datos e instrucciones", "Utilizar procesadores dedicados para cada tarea"], "answer": 1, "explanation": "En Von Neumann, datos e instrucciones comparten el mismo bus, lo que limita el rendimiento." },
+
+{ "epigrafe": 6, "question": "La arquitectura Harvard frente a Von Neumann ofrece como ventaja:", "options": ["Menor complejidad de diseño", "Mayor velocidad al separar buses de datos e instrucciones", "Uso exclusivo en computadores analógicos"], "answer": 1, "explanation": "Harvard separa los buses de datos e instrucciones, permitiendo accesos simultáneos más rápidos." },
+
+{ "epigrafe": 6, "question": "El término 'palabra' en informática se refiere a:", "options": ["El tamaño máximo de una instrucción en bits", "El número de caracteres en un lenguaje de programación", "La dirección física de una celda de memoria"], "answer": 0, "explanation": "Una 'palabra' es la unidad de datos que puede manejar el procesador en una operación, medida en bits." },
+
+{ "epigrafe": 6, "question": "Un byte está compuesto por:", "options": ["4 bits", "8 bits", "16 bits"], "answer": 1, "explanation": "El byte, estándar en informática, contiene 8 bits." },
+
+{ "epigrafe": 6, "question": "El software de sistema incluye:", "options": ["El compilador y el depurador", "El sistema operativo y controladores básicos", "Aplicaciones de usuario"], "answer": 1, "explanation": "El software de sistema es el que permite la interacción entre hardware y aplicaciones, como SO y drivers." },
+
+{ "epigrafe": 6, "question": "El software aplicativo en aeronaves suele incluir:", "options": ["Sistemas operativos en tiempo real", "Programas de gestión de vuelo y navegación", "Lenguajes de programación compilados"], "answer": 1, "explanation": "El software aplicativo son programas como el FMS, que asisten en navegación y gestión de vuelo." },
+
+{ "epigrafe": 6, "question": "El hardware se define como:", "options": ["La parte lógica que ejecuta instrucciones", "Los componentes físicos del sistema de computación", "Los programas y datos almacenados en memoria"], "answer": 1, "explanation": "Hardware corresponde a todos los elementos físicos del ordenador: CPU, memoria, periféricos." },
+
+{ "epigrafe": 6, "question": "La CPU está formada principalmente por:", "options": ["Unidad Aritmético-Lógica (ALU) y Unidad de Control", "Memoria ROM y RAM", "Interfaces de comunicación"], "answer": 0, "explanation": "La CPU integra la ALU para cálculos y la Unidad de Control para coordinar operaciones." },
+
+{ "epigrafe": 6, "question": "Una característica de la memoria RAM frente a la ROM es:", "options": ["Permite escritura y borrado, pero es volátil", "Es permanente y no puede alterarse", "Se utiliza solo para almacenar programas de arranque"], "answer": 0, "explanation": "La RAM es volátil y de lectura/escritura, a diferencia de la ROM que almacena datos permanentes." }
+,
+{ "epigrafe": 6, "question": "La memoria PROM se caracteriza por:", "options": ["Ser programable una sola vez por el usuario", "Ser borrable y reprogramable con radiación ultravioleta", "Ser una memoria volátil utilizada como caché"], "answer": 0, "explanation": "La PROM (Programmable ROM) puede programarse solo una vez, tras lo cual los datos quedan fijos." },
+
+{ "epigrafe": 6, "question": "Los circuitos integrados (IC) permiten:", "options": ["Reducir el tamaño y aumentar la fiabilidad de los sistemas electrónicos", "Sustituir las memorias volátiles por permanentes", "Eliminar la necesidad de fuentes de alimentación en los equipos"], "answer": 0, "explanation": "Los IC concentran múltiples componentes en un chip, reduciendo espacio y aumentando la fiabilidad." },
+
+{ "epigrafe": 6, "question": "Un sistema informático de aeronave se diferencia de uno convencional porque:", "options": ["Opera en tiempo real y con tolerancia a fallos", "Emplea exclusivamente software de propósito general", "No requiere hardware redundante"], "answer": 0, "explanation": "Los sistemas informáticos de aeronaves deben ser en tiempo real y redundantes para garantizar seguridad." },
+
+{ "epigrafe": 6, "question": "Un ejemplo típico de sistema informático en aeronaves es:", "options": ["El FMS (Flight Management System)", "El sistema de entretenimiento a bordo", "El generador de corriente alterna"], "answer": 0, "explanation": "El FMS es un sistema informático crítico de a bordo que asiste en la gestión y navegación de vuelo." },
+
+{ "epigrafe": 10, "question": "La fibra óptica transmite información mediante:", "options": ["Ondas electromagnéticas en la banda de radio", "Impulsos de luz guiados en un medio dieléctrico", "Corrientes eléctricas moduladas"], "answer": 1, "explanation": "La fibra óptica guía impulsos de luz a través de un núcleo dieléctrico." },
+
+{ "epigrafe": 10, "question": "Una ventaja de la fibra óptica frente al cobre es:", "options": ["Mayor inmunidad a interferencias electromagnéticas", "Menor atenuación en distancias cortas", "Mayor facilidad para empalmar cables"], "answer": 0, "explanation": "La fibra óptica es inmune a interferencias electromagnéticas externas." },
+
+{ "epigrafe": 10, "question": "Una desventaja de la fibra óptica es:", "options": ["Mayor peso que el cable de cobre", "Fragilidad y dificultad en las terminaciones", "Imposibilidad de transmitir datos digitales"], "answer": 1, "explanation": "La fibra óptica es frágil y requiere cuidados especiales en conectores y terminaciones." },
+
+{ "epigrafe": 10, "question": "Un bus de datos basado en fibra óptica en aeronaves permite:", "options": ["Transmitir datos a alta velocidad con bajo peso", "Reducir la redundancia de sistemas críticos", "Eliminar la necesidad de protocolos de sincronización"], "answer": 0, "explanation": "La fibra óptica ofrece gran ancho de banda y bajo peso, ideal para buses de datos en aeronaves." },
+
+{ "epigrafe": 10, "question": "El término 'atenuación' en fibra óptica se refiere a:", "options": ["El retardo en la propagación de la señal", "La pérdida de potencia de la señal a lo largo del medio", "La dispersión modal en el núcleo"], "answer": 1, "explanation": "La atenuación es la pérdida de intensidad de la señal conforme avanza por la fibra." },
+
+{ "epigrafe": 10, "question": "El 'índice de refracción' de la fibra óptica determina:", "options": ["La velocidad de propagación de la luz dentro del núcleo", "La cantidad de datos que se pueden transmitir por segundo", "El nivel de atenuación de los empalmes"], "answer": 0, "explanation": "El índice de refracción define la velocidad de la luz dentro de la fibra óptica." },
+
+{ "epigrafe": 10, "question": "Las terminaciones de fibra óptica en aeronaves deben ser:", "options": ["Pulidas y alineadas con precisión para minimizar pérdidas", "Empalmadas con soldadura de plata", "Selladas con resina epoxi opaca"], "answer": 0, "explanation": "Las terminaciones deben estar pulidas y perfectamente alineadas para minimizar pérdidas de señal." },
+
+{ "epigrafe": 10, "question": "Un acoplador óptico en un bus de fibra óptica se utiliza para:", "options": ["Mezclar señales de radiofrecuencia", "Dividir o combinar señales de luz", "Convertir señales ópticas en eléctricas"], "answer": 1, "explanation": "El acoplador óptico permite dividir o combinar señales luminosas en la fibra." }
+,
+{ "epigrafe": 10, "question": "Un terminal óptico en un sistema de aviónica tiene como función principal:", "options": ["Amortiguar la señal luminosa para evitar saturación", "Conectar la fibra óptica con los equipos electrónicos", "Regular la frecuencia de los impulsos de luz"], "answer": 1, "explanation": "El terminal óptico sirve de interfaz entre la fibra y los equipos electrónicos." },
+
+{ "epigrafe": 10, "question": "Un ionizador en sistemas de fibra óptica se utiliza para:", "options": ["Neutralizar partículas cargadas que puedan afectar la transmisión", "Aumentar la intensidad de los pulsos luminosos", "Reducir la dispersión modal en fibras multimodo"], "answer": 0, "explanation": "Los ionizadores eliminan cargas estáticas que podrían afectar la integridad del sistema óptico." },
+
+{ "epigrafe": 10, "question": "Una aplicación concreta de la fibra óptica en aeronaves es:", "options": ["El sistema de entretenimiento de pasajeros", "El bus de control de vuelo y monitorización de motores", "El alumbrado de cabina de emergencia"], "answer": 1, "explanation": "La fibra óptica se emplea en buses de datos críticos para control y monitorización en aeronaves modernas." },
+
+{ "epigrafe": 11, "question": "En un tubo de rayos catódicos (CRT), el haz de electrones se desvía mediante:", "options": ["Campos eléctricos o magnéticos", "Filtros de color RGB", "Cristales líquidos moduladores"], "answer": 0, "explanation": "El haz de electrones en un CRT se controla con campos eléctricos o magnéticos." },
+
+{ "epigrafe": 11, "question": "Una desventaja de las pantallas CRT frente a LCD es:", "options": ["Mayor consumo y peso", "Menor ángulo de visión", "Inmunidad reducida a interferencias"], "answer": 0, "explanation": "Las CRT son más pesadas, consumen más energía y generan calor en comparación con las LCD." },
+
+{ "epigrafe": 11, "question": "En pantallas de cabina basadas en LED, la ventaja principal es:", "options": ["Consumo reducido y alta luminosidad", "Posibilidad de representar gráficos vectoriales", "Compatibilidad directa con buses ARINC"], "answer": 0, "explanation": "Los LED ofrecen bajo consumo y alta luminosidad, ideales para indicadores." },
+
+{ "epigrafe": 11, "question": "Un display LCD funciona controlando:", "options": ["La orientación de cristales líquidos mediante campos eléctricos", "La intensidad del haz de electrones", "La dispersión de la luz en fibras ópticas"], "answer": 0, "explanation": "Los LCD cambian la orientación de los cristales líquidos con campos eléctricos para modular la luz." },
+
+{ "epigrafe": 11, "question": "Una ventaja de las pantallas LCD de matriz activa frente a las pasivas es:", "options": ["Mayor contraste y rapidez de respuesta", "Menor coste de fabricación", "Capacidad de representar datos vectoriales"], "answer": 0, "explanation": "Las matrices activas (TFT) ofrecen mejor contraste y tiempos de respuesta más cortos." },
+
+{ "epigrafe": 11, "question": "En aviónica, las pantallas CRT fueron reemplazadas principalmente por:", "options": ["LED de alto brillo", "LCD de matriz activa", "OLED orgánicos"], "answer": 1, "explanation": "Las pantallas CRT dieron paso a los LCD de matriz activa en la mayoría de cabinas modernas." },
+
+{ "epigrafe": 12, "question": "Un dispositivo sensible a la electricidad estática es aquel que:", "options": ["Tolera altas descargas sin dañarse", "Puede ser destruido por cargas electrostáticas muy pequeñas", "Funciona únicamente en ambientes cargados de electricidad"], "answer": 1, "explanation": "Muchos semiconductores pueden dañarse con descargas de solo unos cientos de voltios." },
+
+{ "epigrafe": 12, "question": "Entre los riesgos de la ESD (electrostatic discharge) se encuentra:", "options": ["Aumento de la vida útil del componente", "Daños latentes que reducen fiabilidad", "Mayor tolerancia térmica"], "answer": 1, "explanation": "La ESD puede causar daños visibles o latentes que reducen la fiabilidad del componente." },
+
+{ "epigrafe": 12, "question": "Una medida de protección antiestática en talleres es:", "options": ["Uso de pulseras conectadas a tierra", "Incrementar la humedad con ventiladores", "Evitar el uso de filtros de aire"], "answer": 0, "explanation": "Las pulseras descargan la electricidad estática del operador a tierra." },
+
+{ "epigrafe": 12, "question": "Un entorno controlado para manipular componentes ESD incluye:", "options": ["Superficies conductoras y control de humedad", "Uso exclusivo de guantes de algodón", "Iluminación con lámparas incandescentes"], "answer": 0, "explanation": "Un entorno ESD controlado mantiene humedad adecuada y superficies conductoras conectadas a tierra." }
+,
+{ "epigrafe": 12, "question": "Un puesto de trabajo antiestático debe incluir:", "options": ["Tapetes conductivos conectados a tierra", "Superficies de madera barnizada", "Alfombras de goma aislante"], "answer": 0, "explanation": "Los tapetes conductivos conectados a tierra permiten descargar la electricidad estática acumulada." },
+
+{ "epigrafe": 12, "question": "Las pulseras antiestáticas deben conectarse a:", "options": ["Una toma de tierra adecuada", "La carcasa metálica del componente", "Una batería de baja tensión"], "answer": 0, "explanation": "Las pulseras ESD se conectan a tierra para derivar la carga del operario." },
+
+{ "epigrafe": 12, "question": "Un puesto de prueba de toma de tierra en un entorno ESD sirve para:", "options": ["Verificar la continuidad a tierra de pulseras y calzado", "Medir la resistencia de los circuitos integrados", "Comprobar la capacidad de aislamiento de los semiconductores"], "answer": 0, "explanation": "El puesto de prueba asegura que pulseras y calzado están correctamente conectados a tierra." },
+
+{ "epigrafe": 12, "question": "El uso de ionizadores en un área ESD tiene como finalidad:", "options": ["Neutralizar cargas electrostáticas en superficies aislantes", "Aumentar la conductividad de los semiconductores", "Refrigerar los dispositivos durante la manipulación"], "answer": 0, "explanation": "Los ionizadores generan iones que neutralizan cargas acumuladas en superficies aislantes." },
+
+{ "epigrafe": 12, "question": "Una manipulación especial de componentes sensibles a ESD implica:", "options": ["Transportarlos en bolsas metalizadas o conductivas", "Colocarlos directamente sobre superficies plásticas", "Aislarlos en recipientes de vidrio"], "answer": 0, "explanation": "Los componentes sensibles se almacenan y transportan en bolsas conductivas para evitar descargas." },
+
+{ "epigrafe": 13, "question": "El control de gestión del software en aeronaves busca principalmente:", "options": ["Permitir el uso libre de versiones beta", "Asegurar la trazabilidad y control de versiones", "Eliminar la necesidad de pruebas de integración"], "answer": 1, "explanation": "Se asegura la trazabilidad de cada versión de software para cumplir normativas de seguridad." },
+
+{ "epigrafe": 13, "question": "Una restricción crítica en software aeronáutico es:", "options": ["El consumo excesivo de memoria", "Un fallo que provoque efectos catastróficos en vuelo", "La falta de interfaz gráfica"], "answer": 1, "explanation": "El software aeronáutico debe evitar fallos que puedan causar efectos catastróficos en operación." },
+
+{ "epigrafe": 13, "question": "Un ejemplo de requisito de aeronavegabilidad aplicado al software es:", "options": ["Cumplimiento de la norma DO-178", "Uso obligatorio de sistemas operativos comerciales", "Compatibilidad con todos los lenguajes de programación"], "answer": 0, "explanation": "La norma DO-178 regula el desarrollo y certificación del software aeronáutico." },
+
+{ "epigrafe": 14, "question": "La interferencia electromagnética (EMI) se define como:", "options": ["La propagación de ondas de radiofrecuencia sin atenuación", "La perturbación que afecta al funcionamiento de equipos electrónicos", "El blindaje de componentes frente a descargas eléctricas"], "answer": 1, "explanation": "La EMI son perturbaciones que alteran el funcionamiento normal de equipos electrónicos." },
+
+{ "epigrafe": 14, "question": "Un método para reducir la EMI en sistemas electrónicos es:", "options": ["Uso de cables trenzados y blindados", "Incrementar la potencia de emisión", "Eliminar la toma de tierra"], "answer": 0, "explanation": "El trenzado y blindaje de cables reduce la captación y emisión de interferencias electromagnéticas." }
+,
+{ "epigrafe": 14, "question": "El fenómeno HIRF (High Intensity Radiated Fields) puede causar:", "options": ["Daños térmicos en el fuselaje", "Malfuncionamiento de sistemas electrónicos", "Incremento de la resistencia aerodinámica"], "answer": 1, "explanation": "Los campos radiados de alta intensidad pueden inducir corrientes y afectar a la aviónica." },
+
+{ "epigrafe": 14, "question": "Una medida típica de protección contra HIRF en aeronaves es:", "options": ["Reforzar el apantallamiento de cableado y equipos", "Incrementar la frecuencia de muestreo de sensores", "Desconectar automáticamente los sistemas afectados"], "answer": 0, "explanation": "El apantallamiento y la correcta conexión a tierra son esenciales frente a HIRF." },
+
+{ "epigrafe": 14, "question": "Un impacto directo de rayo sobre un avión puede causar:", "options": ["Aumento significativo del consumo de combustible", "Corrientes eléctricas transitorias en el fuselaje", "Degradación progresiva del radar meteorológico"], "answer": 1, "explanation": "Los rayos producen corrientes intensas que circulan por el fuselaje, pudiendo dañar equipos." },
+
+{ "epigrafe": 14, "question": "Un sistema de protección contra rayos en aeronaves incluye:", "options": ["Pararrayos retráctiles", "Conductores y descargadores que desvían la corriente", "Revestimientos plásticos aislantes"], "answer": 1, "explanation": "Se instalan conductores y descargadores para canalizar la energía del rayo hacia zonas seguras." },
+
+{ "epigrafe": 14, "question": "La Compatibilidad Electromagnética (EMC) en sistemas de aviónica implica:", "options": ["Asegurar que equipos puedan coexistir sin interferirse", "Eliminar por completo las emisiones electromagnéticas", "Usar frecuencias superiores a 10 GHz"], "answer": 0, "explanation": "La EMC garantiza que los equipos funcionen correctamente en un entorno electromagnético compartido." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, el 'label' de 8 bits dentro de la palabra de 32 bits se utiliza para:", "options": ["Identificar el tipo de dato transmitido", "Indicar la velocidad de transmisión", "Determinar el número de receptores"], "answer": 0, "explanation": "El label identifica el tipo de dato que contiene la palabra ARINC 429." },
+
+{ "epigrafe": 4, "question": "El bus ARINC 429 transmite los datos en formato:", "options": ["Manchester II", "NRZ (Non-Return-to-Zero)", "PWM (Pulse Width Modulation)"], "answer": 0, "explanation": "ARINC 429 utiliza codificación Manchester II para garantizar sincronización y detección de errores." },
+
+{ "epigrafe": 4, "question": "ARINC 629 fue implementado inicialmente en:", "options": ["Airbus A320", "Boeing 777", "McDonnell Douglas MD-90"], "answer": 2, "explanation": "El ARINC 629 se implementó por primera vez en el MD-90 de McDonnell Douglas." },
+
+{ "epigrafe": 4, "question": "Una ventaja de ARINC 629 respecto al MIL-STD-1553B es:", "options": ["No necesita un Bus Controller central", "Transmite a mayor velocidad (10 Mbps)", "Permite transmisión por fibra óptica"], "answer": 0, "explanation": "ARINC 629 usa un esquema de espera distribuida, sin necesidad de un controlador central." },
+
+{ "epigrafe": 4, "question": "ARINC 664 AFDX garantiza la calidad de servicio mediante:", "options": ["Redundancia de hardware sin software de control", "Virtual Links con ancho de banda asignado", "Uso de frecuencias múltiples en paralelo"], "answer": 1, "explanation": "AFDX asegura QoS usando Virtual Links con ancho de banda definido y tráfico determinista." },
+
+{ "epigrafe": 4, "question": "En AFDX, la redundancia se logra con:", "options": ["Doble red Ethernet independiente", "Un único bus síncrono", "Multiplexación por frecuencia"], "answer": 0, "explanation": "AFDX implementa dos redes Ethernet independientes y paralelas para redundancia." },
+
+{ "epigrafe": 4, "question": "Una limitación del IEEE 1394 FireWire frente a ARINC 664 es:", "options": ["Menor velocidad de transmisión", "Falta de determinismo en la entrega de datos", "Incompatibilidad con señales analógicas"], "answer": 1, "explanation": "IEEE 1394 no garantiza determinismo, por lo que no es apto para sistemas críticos de control." },
+
+{ "epigrafe": 4, "question": "La principal ventaja de IEEE 1394 FireWire en aviónica es:", "options": ["Alta velocidad y transmisión isócrona de video", "Compatibilidad directa con ARINC 429", "Total inmunidad a EMI"], "answer": 0, "explanation": "FireWire ofrece transmisión de video en tiempo real mediante canales isócronos de alta velocidad." },
+
+{ "epigrafe": 4, "question": "En ARINC 664, la unidad encargada de gestionar el tráfico determinista es:", "options": ["Switch AFDX", "Remote Terminal", "Bus Controller"], "answer": 0, "explanation": "Los switches AFDX gestionan los Virtual Links y aseguran la entrega determinista." },
+
+{ "epigrafe": 4, "question": "Una de las razones para migrar de ARINC 429 a ARINC 664 en aeronaves modernas es:", "options": ["Incrementar capacidad y escalabilidad de red", "Reducir el número de receptores permitidos", "Simplificar a un único bus unidireccional"], "answer": 0, "explanation": "AFDX (ARINC 664) permite mayor ancho de banda, escalabilidad y topologías complejas frente al 429." }
+,
+{ "epigrafe": 14, "question": "El apantallamiento electromagnético en aeronaves consiste en:", "options": ["Cubrir los equipos con materiales conductores conectados a tierra", "Incrementar la potencia de transmisión", "Aumentar la separación física entre sistemas"], "answer": 0, "explanation": "El apantallamiento utiliza materiales conductores conectados a tierra para bloquear interferencias externas." },
+
+{ "epigrafe": 14, "question": "El HIRF puede inducir en los cables de aviónica:", "options": ["Corrientes parásitas que alteran señales", "Mayor resistencia eléctrica", "Mayor capacidad de almacenamiento"], "answer": 0, "explanation": "Los campos radiados de alta intensidad inducen corrientes parásitas que interfieren en las señales." },
+
+{ "epigrafe": 14, "question": "Una prueba típica para certificar resistencia HIRF en una aeronave consiste en:", "options": ["Exponer el avión a campos electromagnéticos intensos", "Conectar el fuselaje a tierra permanente", "Inyectar corriente continua en los sistemas"], "answer": 0, "explanation": "La certificación HIRF expone la aeronave a campos electromagnéticos intensos para verificar su resistencia." },
+
+{ "epigrafe": 14, "question": "Los sistemas de protección contra rayos en aeronaves incluyen:", "options": ["Conductores embebidos en la estructura", "Filtros ópticos en cabina", "Sensores de proximidad atmosférica"], "answer": 0, "explanation": "Se instalan conductores que desvían la energía del rayo a través de la estructura del avión." },
+
+{ "epigrafe": 14, "question": "Un efecto secundario de un impacto de rayo en aviónica puede ser:", "options": ["Inducción de sobretensiones en equipos electrónicos", "Disminución del empuje del motor", "Reducción inmediata de la velocidad indicada"], "answer": 0, "explanation": "El rayo puede inducir sobretensiones que dañen equipos electrónicos conectados." },
+
+{ "epigrafe": 14, "question": "La compatibilidad electromagnética (EMC) se logra mediante:", "options": ["Diseño con filtrado, apantallamiento y conexión a tierra", "Incremento de potencia de transmisión", "Uso exclusivo de sistemas ópticos"], "answer": 0, "explanation": "La EMC requiere filtrado, blindaje y puesta a tierra adecuada para evitar interferencias." },
+
+{ "epigrafe": 14, "question": "Un requisito clave de EMC en aeronaves es:", "options": ["Garantizar que los sistemas no interfieran entre sí en condiciones normales", "Asegurar que las antenas no reciban señales externas", "Reducir la velocidad de transmisión digital"], "answer": 0, "explanation": "La EMC busca que los equipos coexistan sin interferirse mutuamente en operación normal." }
+,
+{ "epigrafe": 1, "question": "En los instrumentos giroscópicos analógicos, el error de precesión se debe a:", "options": ["El rozamiento en los cojinetes del giroscopio", "La diferencia de presión barométrica", "El uso de tubos de Pitot defectuosos"], "answer": 0, "explanation": "El error de precesión aparece por rozamientos y desalineaciones en los cojinetes del giroscopio." },
+
+{ "epigrafe": 1, "question": "En un indicador de viraje analógico, la cápsula de aceite sirve para:", "options": ["Amortiguar el movimiento del giroscopio", "Detectar fugas en el sistema hidráulico", "Incrementar la sensibilidad al derrape"], "answer": 0, "explanation": "La cápsula de aceite amortigua el movimiento para estabilizar la aguja del indicador." },
+
+{ "epigrafe": 2, "question": "El complemento a 2 en binario se utiliza para:", "options": ["Representar fracciones", "Codificar números negativos", "Agrupar palabras en memoria"], "answer": 1, "explanation": "El complemento a 2 es el sistema más usado para representar números negativos en binario." },
+
+{ "epigrafe": 2, "question": "En binario, un desplazamiento a la izquierda de 1 bit equivale a:", "options": ["Dividir entre 2", "Multiplicar por 2", "Sumar 1"], "answer": 1, "explanation": "Desplazar a la izquierda un bit equivale a multiplicar el número por 2." },
+
+{ "epigrafe": 3, "question": "El teorema de muestreo de Nyquist establece que:", "options": ["La frecuencia de muestreo debe ser al menos el doble de la frecuencia máxima de la señal", "La frecuencia de muestreo es independiente de la señal", "El muestreo solo aplica a señales digitales"], "answer": 0, "explanation": "Nyquist indica que para evitar aliasing la frecuencia de muestreo debe ser ≥ 2 veces la frecuencia máxima." },
+
+{ "epigrafe": 3, "question": "El fenómeno de aliasing ocurre cuando:", "options": ["La señal analógica supera el rango del conversor", "La frecuencia de muestreo es insuficiente", "La señal digital se redondea a menos bits"], "answer": 1, "explanation": "El aliasing aparece cuando la frecuencia de muestreo es menor al doble de la frecuencia máxima de la señal." },
+
+{ "epigrafe": 4, "question": "En el bus MIL-STD-1553B, la señal transmitida tiene forma de:", "options": ["Onda cuadrada", "Onda trapezoidal", "Onda Manchester"], "answer": 2, "explanation": "El 1553B usa codificación Manchester para transmisión de datos." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, los bits de Sign/Status Matrix (SSM) indican:", "options": ["Si el valor es positivo o negativo y su validez", "La frecuencia de transmisión", "El número de receptores"], "answer": 0, "explanation": "Los SSM en ARINC 429 indican signo y estatus de los datos (válidos, nulos, fallo, etc.)." },
+
+{ "epigrafe": 5, "question": "Una compuerta Schmitt Trigger se utiliza para:", "options": ["Generar señales sinusoidales", "Eliminar ruido en señales digitales", "Invertir entradas lógicas"], "answer": 1, "explanation": "El disparador Schmitt añade histéresis, eliminando ruido en las transiciones." },
+
+{ "epigrafe": 5, "question": "Un biestable tipo D almacena:", "options": ["El valor de la entrada en cada flanco de reloj", "Una suma binaria", "Una palabra completa"], "answer": 0, "explanation": "El flip-flop D almacena el valor de su entrada D en el instante del flanco de reloj." },
+
+{ "epigrafe": 6, "question": "La memoria caché en un ordenador tiene como función:", "options": ["Reducir la latencia entre CPU y memoria principal", "Aumentar la capacidad de almacenamiento masivo", "Eliminar la necesidad de RAM"], "answer": 0, "explanation": "La caché guarda datos de uso frecuente para reducir accesos lentos a la RAM." },
+
+{ "epigrafe": 7, "question": "Un procesador CISC se caracteriza por:", "options": ["Tener instrucciones complejas y variadas", "Usar pocas instrucciones simples", "No soportar interrupciones"], "answer": 0, "explanation": "CISC (Complex Instruction Set Computer) incluye instrucciones complejas que requieren varios ciclos." },
+
+{ "epigrafe": 10, "question": "La dispersión cromática en fibra óptica se debe a:", "options": ["Diferencia de velocidades de los colores de la luz", "Cambios de temperatura en el núcleo", "Defectos en el pulido del conector"], "answer": 0, "explanation": "La dispersión cromática ocurre porque las distintas longitudes de onda viajan a diferentes velocidades." },
+
+{ "epigrafe": 11, "question": "En un LCD, la retroiluminación suele realizarse con:", "options": ["LED blancos o fluorescentes CCFL", "Lámparas de sodio", "Tubos CRT miniaturizados"], "answer": 0, "explanation": "Los LCD requieren retroiluminación, tradicionalmente con CCFL y actualmente con LED." },
+
+{ "epigrafe": 14, "question": "Un filtro pasa-bajas en sistemas de aviónica ayuda a:", "options": ["Reducir interferencias de alta frecuencia", "Aumentar la potencia de transmisión", "Filtrar solo señales digitales"], "answer": 0, "explanation": "El filtro pasa-bajas atenúa frecuencias altas que pueden generar EMI en los equipos." }
+,
+{ "epigrafe": 1, "question": "En un altímetro analógico, la cápsula aneroide se deforma debido a:", "options": ["Cambios de presión atmosférica", "Variaciones de temperatura", "Oscilaciones del voltaje eléctrico"], "answer": 0, "explanation": "La cápsula aneroide se expande o contrae con la presión atmosférica, permitiendo indicar la altitud." },
+
+{ "epigrafe": 1, "question": "El horizonte artificial analógico basa su funcionamiento en:", "options": ["Un giroscopio que mantiene una referencia espacial", "Un barómetro diferencial", "Un sensor magnético"], "answer": 0, "explanation": "El giroscopio proporciona la referencia de actitud que se representa en el horizonte artificial." },
+
+{ "epigrafe": 2, "question": "El sistema hexadecimal es útil en informática porque:", "options": ["Reduce la representación de números binarios", "Permite cálculos trigonométricos directos", "Optimiza la conversión de señales analógicas"], "answer": 0, "explanation": "El sistema hexadecimal permite representar números binarios largos de manera más compacta." },
+
+{ "epigrafe": 2, "question": "En binario, el valor 11111111 equivale en decimal a:", "options": ["127", "255", "511"], "answer": 1, "explanation": "11111111 en binario equivale a 255 en decimal (2⁸ - 1)." },
+
+{ "epigrafe": 3, "question": "Un convertidor ADC de tipo flash se caracteriza por:", "options": ["Alta velocidad de conversión", "Uso de un solo comparador", "Bajo consumo energético"], "answer": 0, "explanation": "El ADC flash utiliza múltiples comparadores en paralelo, logrando gran velocidad de conversión." },
+
+{ "epigrafe": 3, "question": "Un DAC de tipo R-2R se compone de:", "options": ["Una red de resistencias en escalera", "Un conjunto de condensadores en paralelo", "Un transformador de acoplamiento"], "answer": 0, "explanation": "El DAC R-2R usa resistencias en escalera que convierten la señal digital en analógica." },
+
+{ "epigrafe": 4, "question": "En MIL-STD-1553B, el Bus Controller (BC) tiene como función:", "options": ["Gestionar el acceso de los terminales remotos al bus", "Reducir la velocidad de transmisión", "Codificar los datos en formato hexadecimal"], "answer": 0, "explanation": "El BC gestiona la comunicación en el bus 1553B, dando autorización a los Remote Terminals." },
+
+{ "epigrafe": 4, "question": "ARINC 429 utiliza transmisión de datos:", "options": ["Unidireccional punto a multipunto", "Bidireccional punto a punto", "En anillo cerrado"], "answer": 0, "explanation": "Cada transmisor ARINC 429 puede enviar datos a múltiples receptores, pero siempre de forma unidireccional." },
+
+{ "epigrafe": 5, "question": "Una compuerta XOR entrega un 1 lógico cuando:", "options": ["Las dos entradas son iguales", "Las entradas son diferentes", "Ninguna entrada recibe señal"], "answer": 1, "explanation": "La puerta XOR devuelve 1 solo cuando las entradas son distintas." },
+
+{ "epigrafe": 5, "question": "Una compuerta lógica 'buffer' se utiliza para:", "options": ["Reforzar la señal de entrada sin cambiar su valor", "Invertir la señal lógica", "Detectar flancos de subida"], "answer": 0, "explanation": "El buffer refuerza la señal, manteniendo su mismo valor lógico." },
+
+{ "epigrafe": 6, "question": "La ROM EEPROM se diferencia de la PROM en que:", "options": ["Puede borrarse y reprogramarse eléctricamente", "Almacena datos solo en fabricación", "Se borra con radiación ultravioleta"], "answer": 0, "explanation": "La EEPROM puede borrarse y reprogramarse eléctricamente, a diferencia de PROM y EPROM." },
+
+{ "epigrafe": 6, "question": "Un ciclo de instrucción en un procesador incluye:", "options": ["Búsqueda, decodificación y ejecución", "Almacenamiento, borrado y verificación", "Compilación, enlace y carga"], "answer": 0, "explanation": "El ciclo básico de instrucción es: buscar, decodificar y ejecutar." },
+
+{ "epigrafe": 10, "question": "En una fibra multimodo, un problema común es:", "options": ["La dispersión modal", "La pérdida cromática total", "La falta de índice de refracción"], "answer": 0, "explanation": "En fibras multimodo, los diferentes caminos de la luz producen dispersión modal." },
+
+{ "epigrafe": 11, "question": "Una ventaja de los LED sobre las lámparas incandescentes en indicadores es:", "options": ["Mayor durabilidad y menor consumo", "Mayor temperatura de funcionamiento", "Mayor tamaño requerido"], "answer": 0, "explanation": "Los LED consumen menos y duran más que las lámparas incandescentes." },
+
+{ "epigrafe": 15, "question": "Un sistema digital en aeronaves se caracteriza por:", "options": ["Transmitir datos de forma continua", "Usar lógica binaria para procesar información", "Ser inmune a cualquier interferencia externa"], "answer": 1, "explanation": "Los sistemas digitales procesan información en formato binario (0/1)." },
+
+{ "epigrafe": 15, "question": "Una de las ventajas de los sistemas digitales frente a los analógicos es:", "options": ["Mayor tolerancia al ruido e interferencias", "Mayor consumo de potencia", "Mayor complejidad de cableado"], "answer": 0, "explanation": "Los sistemas digitales toleran mejor el ruido, lo que mejora su fiabilidad." },
+
+{ "epigrafe": 15, "question": "El sistema EFIS (Electronic Flight Instrument System) pertenece a:", "options": ["Los sistemas digitales de presentación de datos", "Los sistemas hidráulicos de control primario", "Los sistemas mecánicos de reserva"], "answer": 0, "explanation": "El EFIS es un sistema digital que sustituye instrumentos analógicos por pantallas electrónicas." },
+
+{ "epigrafe": 15, "question": "Un EICAS (Engine Indication and Crew Alerting System) se encarga de:", "options": ["Gestionar la base de datos de navegación", "Presentar parámetros de motor y alertas al piloto", "Calcular la trayectoria óptima de vuelo"], "answer": 1, "explanation": "El EICAS muestra información de motores y emite alertas a la tripulación." },
+
+{ "epigrafe": 15, "question": "Un ejemplo de aviónica modular integrada (IMA) es:", "options": ["El sistema ARINC 429", "El concepto de Core Processing Module (CPM)", "El instrumento giroscópico direccional"], "answer": 1, "explanation": "El IMA usa módulos como los CPM para ejecutar aplicaciones compartidas entre distintos sistemas." },
+
+{ "epigrafe": 15, "question": "El BITE (Built-In Test Equipment) en sistemas digitales de aeronaves permite:", "options": ["Realizar pruebas automáticas de diagnóstico y detección de fallos", "Ampliar la capacidad de memoria del sistema", "Reducir el consumo eléctrico de los displays"], "answer": 0, "explanation": "El BITE ejecuta pruebas automáticas para detectar y aislar fallos en equipos electrónicos." },
+
+{ "epigrafe": 15, "question": "Un sistema FMS (Flight Management System) combina información de:", "options": ["Motores y frenos", "Navegación, performance y guía de vuelo", "Iluminación de cabina y aire acondicionado"], "answer": 1, "explanation": "El FMS integra datos de navegación, gestión de performance y guía de vuelo." },
+
+{ "epigrafe": 15, "question": "Dentro de los sistemas de comunicaciones, un transpondedor Modo S proporciona:", "options": ["Identificación de aeronave y datos de altitud", "Mensajes de audio digitalizados", "Corrección automática de trayectoria"], "answer": 0, "explanation": "El transpondedor Modo S transmite identificación y altitud, además de datos adicionales a los radares secundarios." },
+
+{ "epigrafe": 15, "question": "En sistemas de navegación aérea, el GNSS (Global Navigation Satellite System) se integra con:", "options": ["ILS y VOR", "FMS y EFIS", "TCAS y radar meteorológico"], "answer": 1, "explanation": "El GNSS alimenta al FMS y al EFIS con información de posición y navegación precisa." },
+
+{ "epigrafe": 15, "question": "Un sistema de control de vuelo mecánico tradicional transmite las órdenes de piloto mediante:", "options": ["Computadores digitales redundantes", "Cables, poleas y varillaje", "Sensores giroscópicos"], "answer": 1, "explanation": "Los sistemas mecánicos transmiten las órdenes a las superficies de control por medio de cables y varillaje." },
+
+{ "epigrafe": 15, "question": "Una limitación de los sistemas de control de vuelo mecánicos es:", "options": ["Su vulnerabilidad a la fatiga estructural y complejidad de mantenimiento", "La imposibilidad de transmitir fuerzas", "La incapacidad de operar en aeronaves ligeras"], "answer": 0, "explanation": "Los sistemas mecánicos requieren gran cantidad de componentes, lo que incrementa mantenimiento y peso." },
+
+{ "epigrafe": 15, "question": "Un sistema automático de control de vuelo digital (fly-by-wire) reemplaza:", "options": ["Los actuadores hidráulicos", "Las conexiones mecánicas por señales electrónicas", "La aviónica de navegación"], "answer": 1, "explanation": "El fly-by-wire sustituye las conexiones mecánicas por electrónicas, con actuadores controlados digitalmente." },
+
+{ "epigrafe": 15, "question": "Una ventaja clave del fly-by-wire es:", "options": ["Elimina completamente la necesidad de energía eléctrica", "Permite protecciones automáticas contra maniobras peligrosas", "No requiere actuadores hidráulicos"], "answer": 1, "explanation": "El fly-by-wire incorpora protecciones que impiden que el piloto exceda los límites de vuelo seguros." },
+
+{ "epigrafe": 15, "question": "Los sistemas de cabina digital incluyen como ejemplo:", "options": ["Sistemas de gestión de iluminación y presurización", "Motores eléctricos de arranque", "Sensores de impacto estructural"], "answer": 0, "explanation": "Los sistemas de cabina digital abarcan iluminación, climatización y presurización." },
+
+{ "epigrafe": 15, "question": "Una tendencia en los sistemas de cabina modernos es:", "options": ["Integración de funciones en displays táctiles multifunción", "Eliminación total de sistemas de entretenimiento", "Sustitución de presurización por sistemas mecánicos"], "answer": 0, "explanation": "Los displays táctiles integran múltiples funciones de cabina para simplificar la interfaz del piloto." },
+
+{ "epigrafe": 15, "question": "En sistemas de control de vuelo digital, la redundancia se asegura mediante:", "options": ["Uso de múltiples computadores de control independientes", "Duplicación de cables mecánicos", "Incremento del grosor del fuselaje"], "answer": 0, "explanation": "Los sistemas fly-by-wire emplean varios computadores redundantes que validan continuamente las órdenes." },
+
+{ "epigrafe": 15, "question": "Un ejemplo de protección de envolvente de vuelo en un sistema fly-by-wire es:", "options": ["Bloquear comandos que exceden el ángulo de ataque máximo seguro", "Aumentar automáticamente el empuje en ascensos prolongados", "Reducir el consumo de combustible en crucero"], "answer": 0, "explanation": "El sistema evita que el piloto ordene maniobras que superen el ángulo de ataque crítico." },
+
+{ "epigrafe": 15, "question": "En un sistema de control de vuelo mecánico con servo hidráulico, el actuador recibe:", "options": ["La señal eléctrica directamente del FMS", "El esfuerzo mecánico del piloto amplificado hidráulicamente", "La orden digital de los computadores de control"], "answer": 1, "explanation": "Los servos hidráulicos amplifican la fuerza que el piloto transmite mediante cables y varillaje." },
+
+{ "epigrafe": 15, "question": "En sistemas de comunicación aeronáutica, el ACARS (Aircraft Communications Addressing and Reporting System) permite:", "options": ["Enviar mensajes de texto entre aeronave y tierra", "Transmitir señales analógicas de audio en VHF", "Gestionar automáticamente la navegación por satélite"], "answer": 0, "explanation": "El ACARS se utiliza para intercambiar mensajes digitales entre aeronave y estaciones terrestres." },
+
+{ "epigrafe": 15, "question": "Un sistema TCAS (Traffic Collision Avoidance System) se utiliza para:", "options": ["Prevenir colisiones midiendo distancias con radar secundario", "Mantener la separación lateral en aproximaciones", "Controlar la secuencia de aterrizajes en aeropuertos"], "answer": 0, "explanation": "El TCAS detecta tráfico cercano mediante interrogación de transpondedores y emite alertas de resolución." },
+
+{ "epigrafe": 15, "question": "En aviónica modular integrada (IMA), la segregación de funciones se consigue mediante:", "options": ["Particiones de software certificadas que aíslan aplicaciones", "Módulos físicos totalmente independientes", "Asignación de buses dedicados para cada sistema"], "answer": 0, "explanation": "Las particiones de software aseguran que las aplicaciones no interfieran entre sí dentro de un mismo hardware." },
+
+{ "epigrafe": 15, "question": "Los sistemas de presentación de motores en cabina muestran parámetros como:", "options": ["EGT, N1 y N2", "Ángulo de ataque y ángulo de alabeo", "Distancia DME y rumbo magnético"], "answer": 0, "explanation": "Los sistemas de motor muestran parámetros clave como EGT (temperatura de gases), N1 y N2 (velocidades de compresores)." },
+
+{ "epigrafe": 15, "question": "En los sistemas de cabina, el concepto 'dark cockpit' significa:", "options": ["Que las luces de advertencia solo se encienden en caso de fallo", "Que el piloto debe volar con iluminación mínima en cabina", "Que las pantallas LCD se atenúan automáticamente en crucero"], "answer": 0, "explanation": "El 'dark cockpit' implica que solo se encienden luces cuando hay fallos o condiciones anormales." },
+
+{ "epigrafe": 15, "question": "Un sistema de entretenimiento en cabina moderna suele estar conectado a:", "options": ["El bus de datos de aviónica principal", "Una red Ethernet independiente del sistema de vuelo", "El sistema hidráulico auxiliar"], "answer": 1, "explanation": "Los sistemas de entretenimiento utilizan redes independientes para no comprometer la aviónica crítica." },
+
+{ "epigrafe": 15, "question": "Un beneficio de la aviónica integrada es:", "options": ["Reducir peso y cableado al centralizar funciones", "Eliminar la necesidad de mantenimiento preventivo", "Aumentar el tamaño físico de cada módulo"], "answer": 0, "explanation": "La aviónica integrada reduce peso y complejidad al compartir módulos y buses de datos comunes." },
+
+{ "epigrafe": 15, "question": "En un sistema de control de vuelo digital, el término 'quadruplex' se refiere a:", "options": ["El uso de cuatro computadores de control redundantes", "La transmisión en cuatro frecuencias distintas", "La división de un bus de datos en cuatro segmentos"], "answer": 0, "explanation": "Un sistema quadruplex incorpora cuatro canales redundantes para asegurar fiabilidad extrema." },
+
+{ "epigrafe": 15, "question": "En un sistema mecánico de control de vuelo, los 'bellcranks' sirven para:", "options": ["Transmitir y modificar el movimiento en sistemas de cables", "Actuar como sensores de posición", "Convertir señales eléctricas en hidráulicas"], "answer": 0, "explanation": "Los bellcranks son palancas que transmiten y redirigen los movimientos en sistemas de control mecánico." },
+
+{ "epigrafe": 15, "question": "Un fallo en un sistema de control de vuelo digital suele gestionarse mediante:", "options": ["Reversión a modos degradados o a sistemas redundantes", "Desconexión total del sistema de control", "Activación de control mecánico por fibra óptica"], "answer": 0, "explanation": "Los sistemas digitales poseen redundancia y modos degradados para mantener control seguro en caso de fallo." },
+
+{ "epigrafe": 15, "question": "El HUD (Head-Up Display) en cabina proporciona:", "options": ["Indicaciones de vuelo proyectadas en la línea de visión del piloto", "Información meteorológica por satélite", "Datos de mantenimiento en tiempo real"], "answer": 0, "explanation": "El HUD muestra parámetros críticos de vuelo directamente en la línea de visión del piloto." },
+
+{ "epigrafe": 15, "question": "El EFB (Electronic Flight Bag) sustituye principalmente a:", "options": ["Documentación y manuales en papel", "Instrumentos de respaldo analógicos", "Sensores de presión barométrica"], "answer": 0, "explanation": "El EFB reemplaza manuales, cartas y listas de chequeo en papel por una solución electrónica portátil." },
+
+{ "epigrafe": 15, "question": "Una característica de los sistemas de navegación FMS modernos es:", "options": ["Integrar múltiples fuentes de navegación como GPS, IRS y VOR/DME", "Operar exclusivamente con datos de GPS", "Requerir siempre control manual de piloto"], "answer": 0, "explanation": "El FMS combina varias fuentes para garantizar redundancia y precisión en navegación." },
+
+{ "epigrafe": 15, "question": "Un sistema de comunicación por satélite (SATCOM) en aeronaves se utiliza principalmente para:", "options": ["Transmitir datos y voz a largas distancias", "Sincronizar relojes internos con GPS", "Reducir la interferencia electromagnética en cabina"], "answer": 0, "explanation": "El SATCOM permite comunicación global en voz y datos mediante enlaces satelitales." },
+
+{ "epigrafe": 15, "question": "El término 'autoland' en un sistema automático de vuelo significa:", "options": ["Capacidad del sistema para realizar un aterrizaje automático completo", "Función de descenso automático en caso de despresurización", "Modo de guiado exclusivo para aproximaciones manuales"], "answer": 0, "explanation": "El autoland permite que el avión aterrice de forma automática, habitualmente en categorías de baja visibilidad." },
+
+{ "epigrafe": 15, "question": "En los sistemas de cabina, el EICAS/ECAM presenta al piloto:", "options": ["Parámetros de motor, fallos de sistemas y listas de acciones", "Solo datos de navegación lateral", "Exclusivamente alarmas acústicas"], "answer": 0, "explanation": "El EICAS/ECAM integra datos de motor, alertas y listas de acciones para la tripulación." },
+
+{ "epigrafe": 15, "question": "Un PFD (Primary Flight Display) combina en una sola pantalla:", "options": ["Actitud, velocidad, altitud y trayectoria de vuelo", "Mapa meteorológico y datos de mantenimiento", "Control de motores y cabina"], "answer": 0, "explanation": "El PFD concentra en una pantalla principal los parámetros esenciales de vuelo: actitud, velocidad, altitud y trayectoria." },
+
+{ "epigrafe": 15, "question": "El ND (Navigation Display) proporciona principalmente información sobre:", "options": ["Actitud y velocidad del avión", "Rumbo, trayectoria y ayudas a la navegación", "Parámetros de motor y combustible"], "answer": 1, "explanation": "El ND muestra la situación de navegación con rumbo, trayectoria, waypoints y radioayudas." },
+
+{ "epigrafe": 15, "question": "El sistema TCAS genera dos tipos de alertas, que son:", "options": ["Advisory y Mandatory", "Traffic Advisory (TA) y Resolution Advisory (RA)", "Alert y Warning"], "answer": 1, "explanation": "El TCAS emite TA cuando hay tráfico próximo y RA cuando se requiere maniobra de evasión." },
+
+{ "epigrafe": 15, "question": "En aviónica modular integrada (IMA), la comunicación entre módulos se realiza mediante:", "options": ["Buses de datos de alta velocidad como ARINC 664", "Canales de radio VHF internos", "Señales analógicas redundantes"], "answer": 0, "explanation": "Los módulos de IMA se comunican a través de buses de datos de alta velocidad, como AFDX (ARINC 664)." },
+
+{ "epigrafe": 15, "question": "Una característica clave de los sistemas de cabina electrónicos modernos es:", "options": ["Eliminación total de instrumentos analógicos de respaldo", "Integración de múltiples funciones en pantallas multifunción", "Uso exclusivo de CRT para mejorar el contraste"], "answer": 1, "explanation": "Las pantallas multifunción concentran varios sistemas, reduciendo la carga de trabajo del piloto." },
+
+{ "epigrafe": 15, "question": "El término 'reversionary mode' en cabinas digitales hace referencia a:", "options": ["El cambio automático de displays en caso de fallo de una pantalla", "El retorno a instrumentos analógicos en todas las fases de vuelo", "El uso exclusivo de HUD en lugar de PFD"], "answer": 0, "explanation": "El modo reversionario permite que otra pantalla asuma la información de un display fallado." },
+
+{ "epigrafe": 15, "question": "Los sistemas de control de vuelo digitales emplean 'actuadores electrohidráulicos' porque:", "options": ["No requieren alimentación eléctrica", "Transforman órdenes electrónicas en movimiento mecánico con potencia hidráulica", "Permiten eliminar por completo la hidráulica en aeronaves"], "answer": 1, "explanation": "Los actuadores electrohidráulicos convierten las órdenes electrónicas en fuerza mecánica con potencia hidráulica." },
+
+{ "epigrafe": 15, "question": "El concepto 'glass cockpit' hace referencia a:", "options": ["El uso de parabrisas reforzados contra impactos", "La sustitución de instrumentos analógicos por pantallas electrónicas", "La incorporación de pantallas de cristal templado"], "answer": 1, "explanation": "Un glass cockpit sustituye relojes analógicos por pantallas electrónicas (PFD, ND, MFD)." },
+
+{ "epigrafe": 15, "question": "Un ejemplo de sistema digital de control de cabina es:", "options": ["El sistema de gestión de iluminación LED", "El tren de aterrizaje mecánico", "El actuador de frenos hidráulico puro"], "answer": 0, "explanation": "Los sistemas de cabina modernos digitalizan la gestión de iluminación, climatización y presurización." },
+
+{ "epigrafe": 15, "question": "El término 'integridad de datos' en aviónica digital significa:", "options": ["La protección de la información frente a interferencias o errores de transmisión", "La capacidad de transmitir datos encriptados", "La prioridad de los datos de navegación sobre los de cabina"], "answer": 0, "explanation": "La integridad de datos asegura que la información transmitida se mantenga fiel y sin alteraciones." },
+
+{ "epigrafe": 15, "question": "Una característica de los sistemas fly-by-wire es:", "options": ["Permiten integrar protecciones de envolvente de vuelo directamente en el software", "Reducen la necesidad de computadores de control redundantes", "Utilizan únicamente señales analógicas para el guiado"], "answer": 0, "explanation": "El fly-by-wire integra protecciones de envolvente de vuelo, impidiendo órdenes peligrosas por software." },
+
+{ "epigrafe": 15, "question": "Un sistema de control de vuelo digital triplex cuenta con:", "options": ["Tres canales redundantes que votan la señal correcta", "Tres actuadores en paralelo para cada superficie", "Tres fuentes de energía eléctrica independientes"], "answer": 0, "explanation": "El triplex utiliza tres canales redundantes con votación para seleccionar la salida válida." },
+
+{ "epigrafe": 15, "question": "En un sistema de control de vuelo mecánico, las cargas aerodinámicas sobre las superficies se compensan con:", "options": ["Servos hidráulicos o tabs de compensación", "Cables dobles de acero de alta resistencia", "Sensores piezoeléctricos"], "answer": 0, "explanation": "Los servos o tabs ayudan a reducir el esfuerzo del piloto frente a cargas aerodinámicas elevadas." },
+
+{ "epigrafe": 15, "question": "El sistema autothrottle en una aeronave controla:", "options": ["La potencia de los motores automáticamente", "El ángulo de ataque de las alas", "La posición del timón de dirección"], "answer": 0, "explanation": "El autothrottle ajusta la potencia de los motores según la fase de vuelo y la configuración del piloto automático." },
+
+{ "epigrafe": 15, "question": "El ACARS utiliza principalmente como medios de transmisión:", "options": ["VHF, HF y satélite", "Fibra óptica y ARINC 629", "Bluetooth y WiFi"], "answer": 0, "explanation": "ACARS transmite mensajes digitales a través de VHF, HF y enlaces satelitales." },
+
+{ "epigrafe": 15, "question": "Un EFIS moderno puede integrar en una sola pantalla:", "options": ["Datos de actitud, navegación y meteorología", "Únicamente información de velocidad y altitud", "Solo parámetros de motor"], "answer": 0, "explanation": "El EFIS combina en una pantalla la información de actitud, navegación y radar meteorológico." },
+
+{ "epigrafe": 15, "question": "En un sistema de aviónica modular integrada (IMA), el fallo de un módulo:", "options": ["Se compensa con la reasignación de funciones a otros módulos disponibles", "Implica la pérdida total del sistema", "Obliga a pasar al control mecánico"], "answer": 0, "explanation": "En IMA, las funciones se pueden redistribuir dinámicamente en otros módulos activos." },
+
+{ "epigrafe": 15, "question": "El TCAS determina la proximidad de otras aeronaves utilizando:", "options": ["Interrogación de transpondedores", "Radar primario de barrido", "Sensores ópticos"], "answer": 0, "explanation": "El TCAS interroga transpondedores de otras aeronaves para calcular distancia y trayectoria relativa." },
+
+{ "epigrafe": 15, "question": "Una función típica del EFB (Electronic Flight Bag) es:", "options": ["Mostrar cartas de navegación digitalizadas", "Regular la mezcla aire-combustible", "Calibrar automáticamente altímetros"], "answer": 0, "explanation": "El EFB proporciona acceso a cartas de navegación, manuales y listas electrónicas." },
+
+{ "epigrafe": 15, "question": "Un sistema de cabina digital con filosofía 'dark cockpit' facilita:", "options": ["Reducir la carga de trabajo del piloto al mostrar alertas solo en condiciones anormales", "Volver a instrumentos analógicos en vuelo nocturno", "La desconexión automática de pantallas en crucero"], "answer": 0, "explanation": "El concepto 'dark cockpit' reduce la carga visual mostrando alertas solo cuando algo está fuera de lo normal." },
+
+{ "epigrafe": 15, "question": "Un beneficio de la digitalización de sistemas en aeronaves es:", "options": ["Mayor capacidad de integración, monitorización y autodiagnóstico", "Eliminación de la necesidad de certificación", "Reducción de la dependencia de energía eléctrica"], "answer": 0, "explanation": "La digitalización mejora la integración entre sistemas, facilita el autodiagnóstico y reduce el cableado." }
+,
+{ "epigrafe": 15, "question": "Un sistema fly-by-wire 'fail-passive' significa que:", "options": ["El sistema puede continuar operando sin degradación tras un fallo", "Ante un fallo, el sistema se desconecta pero mantiene la aeronave en control estable", "El sistema nunca puede fallar en operación"], "answer": 1, "explanation": "En un sistema fail-passive, un fallo provoca desconexión del sistema automático pero la aeronave permanece controlable." },
+
+{ "epigrafe": 15, "question": "Un sistema fly-by-wire 'fail-operational' significa que:", "options": ["Tras un fallo, otra cadena redundante asume el control sin pérdida de funciones", "El sistema se desconecta inmediatamente para evitar riesgos", "La aeronave no requiere redundancia en sus computadores"], "answer": 0, "explanation": "Fail-operational asegura que, tras un fallo, otra unidad redundante toma el control sin degradación." },
+
+{ "epigrafe": 15, "question": "La filosofía de diseño 'integrated modular avionics' (IMA) busca principalmente:", "options": ["Centralizar múltiples aplicaciones en módulos comunes", "Separar totalmente cada sistema en hardware dedicado", "Reducir la capacidad de procesamiento por módulo"], "answer": 0, "explanation": "IMA centraliza funciones en módulos de propósito general, compartiendo recursos." },
+
+{ "epigrafe": 15, "question": "En un sistema de control de vuelo mecánico, las varillas de mando transmiten:", "options": ["Señales eléctricas codificadas", "Movimientos físicos del piloto a las superficies", "Órdenes digitales desde el FMS"], "answer": 1, "explanation": "Las varillas transmiten directamente la acción física del piloto a las superficies de mando." },
+
+{ "epigrafe": 15, "question": "Los sistemas automáticos de control de vuelo digital (AFCS) pueden realizar:", "options": ["Únicamente estabilización de cabeceo", "Control de trayectoria, altitud y aterrizaje automático", "Solo la gestión de motores en crucero"], "answer": 1, "explanation": "El AFCS puede estabilizar, mantener altitud, seguir trayectoria e incluso aterrizar automáticamente." },
+
+{ "epigrafe": 15, "question": "Un beneficio clave de los sistemas de comunicación digital en aeronaves es:", "options": ["Mayor inmunidad al ruido e integración con otros sistemas", "Eliminación de la necesidad de antenas externas", "Transmisión exclusivamente analógica"], "answer": 0, "explanation": "Las comunicaciones digitales ofrecen más resistencia al ruido y pueden integrarse con aviónica moderna." },
+
+{ "epigrafe": 15, "question": "El modo VNAV en un FMS permite:", "options": ["Gestionar perfiles verticales de ascenso y descenso", "Controlar exclusivamente la velocidad horizontal", "Sincronizar comunicaciones de datos"], "answer": 0, "explanation": "VNAV gestiona automáticamente la trayectoria vertical de la aeronave según el plan de vuelo." },
+
+{ "epigrafe": 15, "question": "El modo LNAV en un FMS se refiere a:", "options": ["Gestión lateral de la trayectoria de vuelo", "Control automático de motores", "Gestión de listas de comprobación electrónicas"], "answer": 0, "explanation": "LNAV (Lateral Navigation) controla la trayectoria lateral de acuerdo con el plan de vuelo." },
+
+{ "epigrafe": 15, "question": "En cabinas modernas, el sistema de 'checklist electrónico' integrado en el ECAM/EICAS:", "options": ["Muestra y gestiona procedimientos normales y de emergencia", "Sustituye por completo al piloto en toma de decisiones", "Evita la necesidad de redundancia en displays"], "answer": 0, "explanation": "El checklist electrónico guía al piloto en procedimientos normales y de emergencia." },
+
+{ "epigrafe": 15, "question": "La filosofía de mantenimiento basada en BITE permite:", "options": ["Diagnóstico rápido de fallos y reducción de tiempo en tierra", "Eliminar la necesidad de revisiones periódicas", "Sustituir todos los instrumentos analógicos por digitales"], "answer": 0, "explanation": "BITE reduce los tiempos de diagnóstico y reparación al detectar fallos automáticamente." }
+,
+{ "epigrafe": 15, "question": "El concepto de 'redundancia triplex' en control de vuelo digital implica:", "options": ["Tres sensores y canales de procesamiento comparados entre sí", "Tres actuadores instalados en cada superficie de control", "Tres fuentes de energía eléctrica independientes"], "answer": 0, "explanation": "La redundancia triplex utiliza tres canales de sensores y procesadores con lógica de votación." },
+
+{ "epigrafe": 15, "question": "En el sistema EFIS, la función del MFD (Multi-Function Display) es:", "options": ["Mostrar mapas de navegación, meteorología y datos suplementarios", "Reemplazar al PFD en todo momento", "Indicar parámetros de motor exclusivamente"], "answer": 0, "explanation": "El MFD presenta mapas, datos de navegación y meteorología, además de servir como respaldo de otros displays." },
+
+{ "epigrafe": 15, "question": "En sistemas fly-by-wire, el 'computador de control primario' procesa:", "options": ["Las entradas del piloto y sensores para generar órdenes a los actuadores", "Únicamente datos de motores", "Mensajes de comunicaciones ACARS"], "answer": 0, "explanation": "El computador de control primario convierte entradas de piloto y sensores en comandos para los actuadores." },
+
+{ "epigrafe": 15, "question": "En aviónica moderna, el término 'reconfiguración automática' se refiere a:", "options": ["La reasignación de funciones de un módulo fallado a otro disponible", "El ajuste automático de la mezcla aire-combustible", "La calibración automática de sistemas hidráulicos"], "answer": 0, "explanation": "La reconfiguración automática permite que, tras un fallo, otro módulo asuma sus funciones." },
+
+{ "epigrafe": 15, "question": "El sistema GPWS (Ground Proximity Warning System) alerta al piloto cuando:", "options": ["Se aproxima peligrosamente al terreno", "Excede los límites de velocidad Vne", "El TCAS detecta tráfico cercano"], "answer": 0, "explanation": "El GPWS emite alertas cuando la aeronave se acerca demasiado rápido al terreno." },
+
+{ "epigrafe": 15, "question": "El EICAS en Boeing y el ECAM en Airbus se diferencian en que:", "options": ["El ECAM propone acciones correctivas en pantalla, mientras el EICAS no", "El EICAS es analógico y el ECAM digital", "El ECAM no muestra parámetros de motor"], "answer": 0, "explanation": "El ECAM guía al piloto con acciones sugeridas, mientras el EICAS solo presenta la información y alertas." },
+
+{ "epigrafe": 15, "question": "El HUD permite al piloto:", "options": ["Ver parámetros de vuelo proyectados en la línea de visión sin desviar la mirada", "Controlar directamente el FMS mediante gestos", "Visualizar exclusivamente datos de motor"], "answer": 0, "explanation": "El HUD proyecta actitud, velocidad y trayectoria en la línea de visión, mejorando la consciencia situacional." },
+
+{ "epigrafe": 15, "question": "En sistemas de cabina digital, la filosofía 'dark and quiet cockpit' significa:", "options": ["No se encienden luces ni suenan alarmas salvo condiciones anormales", "El piloto debe mantener apagada toda iluminación de cabina", "Las alarmas sonoras se mantienen siempre activas en crucero"], "answer": 0, "explanation": "La cabina permanece 'oscura y silenciosa' salvo cuando hay una condición anormal que requiere atención." },
+
+{ "epigrafe": 15, "question": "El RAAS (Runway Awareness and Advisory System) proporciona:", "options": ["Alertas de situación de pista para evitar incursiones", "Corrección automática de trayectoria en final", "Supervisión de separación vertical"], "answer": 0, "explanation": "El RAAS alerta al piloto sobre posición en pista, desvíos y posibles incursiones." },
+
+{ "epigrafe": 15, "question": "La tendencia actual en cabinas electrónicas es:", "options": ["Integración de sistemas en grandes displays táctiles", "Volver a instrumentos analógicos para reducir complejidad", "Uso exclusivo de CRT para fiabilidad"], "answer": 0, "explanation": "La tendencia es integrar múltiples funciones en pantallas táctiles de gran tamaño, simplificando la interfaz." },
+
+{ "epigrafe": 1, "question": "El velocímetro analógico de un avión obtiene la presión dinámica mediante:", "options": ["El tubo de Pitot", "El sensor barométrico", "El giróscopo vertical"], "answer": 0, "explanation": "El tubo de Pitot mide la presión dinámica para calcular la velocidad indicada." },
+
+{ "epigrafe": 1, "question": "Un indicador de viraje coordinado combina:", "options": ["La inclinación lateral y el derrape", "El ángulo de ataque y la altitud", "La velocidad vertical y el rumbo"], "answer": 0, "explanation": "El coordinador de viraje muestra la inclinación lateral y el derrape de la aeronave." },
+
+{ "epigrafe": 2, "question": "El código Gray se utiliza en sistemas digitales para:", "options": ["Reducir errores en transiciones de bits", "Codificar instrucciones de CPU", "Detectar paridad en buses de datos"], "answer": 0, "explanation": "El código Gray cambia solo un bit entre números consecutivos, reduciendo errores." },
+
+{ "epigrafe": 2, "question": "En el sistema octal, el número 17 equivale en decimal a:", "options": ["15", "17", "23"], "answer": 2, "explanation": "En octal, 17 equivale a 1×8 + 7 = 15 en decimal. (Revisa: es 15, no 23)." },
+
+{ "epigrafe": 3, "question": "Un conversor sigma-delta se emplea principalmente por:", "options": ["Alta resolución a bajas frecuencias", "Alta velocidad de muestreo", "Simplicidad de hardware"], "answer": 0, "explanation": "Los conversores sigma-delta son ideales para señales de baja frecuencia con alta resolución." },
+
+{ "epigrafe": 3, "question": "Un conversor D/A de tipo PWM convierte:", "options": ["El ciclo de trabajo de un tren de pulsos en un nivel de tensión medio", "La frecuencia de entrada en voltaje", "La amplitud de onda sinusoidal en código binario"], "answer": 0, "explanation": "En un DAC PWM, el valor analógico se obtiene del ciclo de trabajo promedio del pulso." },
+
+{ "epigrafe": 4, "question": "En MIL-STD-1553B, un 'Remote Terminal' (RT) es:", "options": ["Un dispositivo que responde a las órdenes del Bus Controller", "El nodo que organiza toda la comunicación", "Un repetidor pasivo de señal"], "answer": 0, "explanation": "El RT se comunica solo bajo autorización del Bus Controller en 1553B." },
+
+{ "epigrafe": 4, "question": "ARINC 629 emplea un método de acceso al medio llamado:", "options": ["Carrier Sense Multiple Access", "Deterministic Protocol Distributed Access", "Polling con prioridad"], "answer": 1, "explanation": "ARINC 629 usa un protocolo distribuido sin controlador central." },
+
+{ "epigrafe": 5, "question": "La puerta lógica NAND se considera universal porque:", "options": ["Puede implementarse como cualquier otra puerta lógica", "Genera señales sinusoidales", "Filtra las señales analógicas"], "answer": 0, "explanation": "Con NAND se pueden construir todas las demás puertas lógicas." },
+
+{ "epigrafe": 5, "question": "Un circuito combinacional se diferencia de un secuencial en que:", "options": ["No depende de memoria previa, solo de entradas actuales", "Depende de estados almacenados", "Usa siempre biestables"], "answer": 0, "explanation": "Los combinacionales no guardan estados; su salida depende solo de las entradas." },
+
+{ "epigrafe": 6, "question": "La unidad aritmético-lógica (ALU) en un procesador realiza:", "options": ["Operaciones matemáticas y lógicas básicas", "Gestión de memoria", "Control de periféricos"], "answer": 0, "explanation": "La ALU ejecuta sumas, restas, comparaciones y operaciones lógicas." },
+
+{ "epigrafe": 6, "question": "La memoria RAM dinámica (DRAM) requiere:", "options": ["Refresco periódico de celdas", "Programación por láser", "Tensión de polarización negativa"], "answer": 0, "explanation": "La DRAM necesita ser refrescada porque las celdas pierden carga con el tiempo." },
+
+{ "epigrafe": 10, "question": "En una fibra monomodo, la ventaja principal es:", "options": ["Mayor ancho de banda y distancia sin dispersión modal", "Menor coste de instalación", "Mayor resistencia mecánica"], "answer": 0, "explanation": "La fibra monomodo permite transmitir a largas distancias sin dispersión modal." },
+
+{ "epigrafe": 11, "question": "En pantallas LCD, el modo 'twisted nematic' se caracteriza por:", "options": ["La orientación de moléculas de cristal líquido en 90°", "El uso de fósforo excitado por electrones", "La proyección directa de LED"], "answer": 0, "explanation": "El modo TN gira las moléculas de cristal líquido 90° para controlar la luz." },
+
+{ "epigrafe": 12, "question": "El fenómeno de 'latch-up' en circuitos CMOS por ESD provoca:", "options": ["Un cortocircuito interno que destruye el chip", "Mayor eficiencia en la conducción", "Protección automática contra descargas"], "answer": 0, "explanation": "El latch-up ocurre cuando una descarga activa estructuras parásitas que destruyen el circuito." },
+
+{ "epigrafe": 13, "question": "El control de configuración del software en aeronaves asegura:", "options": ["Que cada cambio esté documentado y validado", "Que el software pueda modificarse libremente en vuelo", "Que los programas no necesiten certificación"], "answer": 0, "explanation": "Cada versión de software debe estar controlada, documentada y certificada." },
+
+{ "epigrafe": 14, "question": "La blindaje de cableado en aviónica se conecta a:", "options": ["Tierra en un extremo o ambos, según diseño", "Las antenas de comunicación", "La carcasa de los semiconductores"], "answer": 0, "explanation": "El blindaje de los cables debe conectarse a tierra para desviar interferencias." },
+
+{ "epigrafe": 1, "question": "El indicador de velocidad vertical analógico mide:", "options": ["El flujo de aire en el tubo Pitot", "La variación de presión estática en el tiempo", "La aceleración longitudinal"], "answer": 1, "explanation": "El variómetro se basa en la tasa de cambio de la presión estática, indicando ascenso o descenso." },
+
+{ "epigrafe": 1, "question": "El giroscopio direccional analógico debe recalibrarse periódicamente porque:", "options": ["Está sujeto a precesión y deriva", "Su cápsula aneroide se expande", "La brújula magnética lo fuerza a desalinearse"], "answer": 0, "explanation": "Los giros direccionales presentan errores acumulados de precesión y deben ajustarse a la brújula." },
+
+{ "epigrafe": 2, "question": "El sistema BCD codifica:", "options": ["Cada dígito decimal en 4 bits", "Un número entero completo en binario puro", "Números fraccionarios mediante 8 bits"], "answer": 0, "explanation": "BCD asigna 4 bits a cada dígito decimal de forma independiente." },
+
+{ "epigrafe": 2, "question": "El número 1010 1111 en hexadecimal equivale a:", "options": ["AF", "1F", "9D"], "answer": 0, "explanation": "El binario 1010 1111 corresponde al hexadecimal AF." },
+
+{ "epigrafe": 3, "question": "En la digitalización de una señal, la cuantificación provoca:", "options": ["Un error de redondeo respecto al valor real", "Una pérdida de frecuencia de muestreo", "Una distorsión de fase"], "answer": 0, "explanation": "El error de cuantificación es la diferencia entre el valor analógico y el nivel digital asignado." },
+
+{ "epigrafe": 3, "question": "Un ADC de aproximaciones sucesivas combina:", "options": ["Velocidad y resolución media", "Máxima velocidad con baja resolución", "Resolución infinita con baja estabilidad"], "answer": 0, "explanation": "El ADC SAR (Successive Approximation Register) equilibra velocidad y resolución en muchas aplicaciones." },
+
+{ "epigrafe": 4, "question": "El formato de palabra estándar de MIL-STD-1553B es de:", "options": ["20 bits", "32 bits", "16 bits"], "answer": 1, "explanation": "Cada palabra en 1553B tiene 32 bits: 3 de sincronismo, 16 de datos, 5 de subdirección y control, más paridad." },
+
+{ "epigrafe": 4, "question": "La topología básica de ARINC 429 es:", "options": ["Bus unidireccional punto-multipunto", "Anillo redundante", "Red en estrella"], "answer": 0, "explanation": "ARINC 429 permite que un transmisor hable con múltiples receptores, pero siempre en un sentido." },
+
+{ "epigrafe": 5, "question": "Una compuerta lógica NOR se activa cuando:", "options": ["Todas sus entradas son 0", "Todas sus entradas son 1", "Las entradas son diferentes"], "answer": 0, "explanation": "La salida NOR es 1 solo cuando todas las entradas son 0." },
+
+{ "epigrafe": 5, "question": "Los biestables tipo JK se diferencian de los D porque:", "options": ["Permiten invertir el estado con entradas J=K=1", "No requieren señal de reloj", "Solo almacenan palabras completas"], "answer": 0, "explanation": "Con J=K=1, el flip-flop JK conmuta su estado en cada pulso de reloj." },
+
+{ "epigrafe": 6, "question": "La memoria EPROM se borra mediante:", "options": ["Radiación ultravioleta", "Pulso eléctrico de alta tensión", "Campos magnéticos"], "answer": 0, "explanation": "La EPROM requiere luz ultravioleta para borrar su contenido." },
+
+{ "epigrafe": 6, "question": "La BIOS de un ordenador está almacenada en:", "options": ["ROM o memoria no volátil", "RAM dinámica", "Memoria caché"], "answer": 0, "explanation": "La BIOS reside en una ROM o memoria flash, ya que debe estar disponible al arrancar." },
+
+{ "epigrafe": 10, "question": "Un 'splitter' óptico en un bus de fibra divide:", "options": ["La señal luminosa en múltiples fibras", "La frecuencia de la señal en varias bandas", "El núcleo en diferentes diámetros"], "answer": 0, "explanation": "El splitter reparte la luz entre varias fibras." },
+
+{ "epigrafe": 11, "question": "Los CRT presentan 'burn-in' cuando:", "options": ["La pantalla retiene imágenes estáticas por fosforos degradados", "El tubo de rayos pierde presión", "Los electrones dejan de acelerarse"], "answer": 0, "explanation": "El burn-in ocurre cuando los fósforos se degradan y retienen imágenes fijas." },
+
+{ "epigrafe": 12, "question": "Una medida de protección ESD en almacenamiento es:", "options": ["Uso de bolsas metalizadas conductivas", "Guardar los chips en cajas de cartón", "Mantenerlos en recipientes de vidrio"], "answer": 0, "explanation": "Las bolsas metalizadas evitan acumulación de cargas electrostáticas." },
+
+{ "epigrafe": 13, "question": "La norma DO-178C en software aeronáutico define:", "options": ["Los niveles de criticidad y procesos de certificación", "El cableado de datos en buses críticos", "Los protocolos de comunicación ARINC"], "answer": 0, "explanation": "DO-178C establece los requisitos de desarrollo y certificación del software en aeronaves." },
+
+{ "epigrafe": 14, "question": "Un acoplamiento inductivo no deseado en cableado produce:", "options": ["Interferencia electromagnética entre conductores", "Mayor aislamiento eléctrico", "Protección contra rayos"], "answer": 0, "explanation": "El acoplamiento inductivo genera EMI al inducirse señales en cables próximos." },
+
+{ "epigrafe": 1, "question": "El indicador de ángulo de ataque analógico funciona midiendo:", "options": ["La diferencia de presión entre tomas en el perfil alar", "La aceleración longitudinal del avión", "La velocidad vertical en ascenso"], "answer": 0, "explanation": "El sensor de ángulo de ataque mide presiones diferenciales en el ala para indicar la incidencia." },
+
+{ "epigrafe": 1, "question": "El giróscopo en un horizonte artificial se mantiene rígido en el espacio gracias a:", "options": ["La conservación del momento angular", "El campo magnético terrestre", "La presión barométrica"], "answer": 0, "explanation": "El principio giroscópico de rigidez en el espacio permite que el instrumento mantenga referencia de actitud." },
+
+{ "epigrafe": 2, "question": "El número octal 34 equivale en binario a:", "options": ["11100", "11010", "100010"], "answer": 0, "explanation": "El octal 34 corresponde al binario 011 100 → 11100." },
+
+{ "epigrafe": 2, "question": "En hexadecimal, el número 7F corresponde en decimal a:", "options": ["127", "255", "63"], "answer": 0, "explanation": "7F en hexadecimal equivale a 7×16 + 15 = 127." },
+
+{ "epigrafe": 3, "question": "La linealidad de un conversor A/D indica:", "options": ["La proporcionalidad entre entrada analógica y salida digital", "La velocidad de conversión máxima", "La capacidad de trabajar en paralelo"], "answer": 0, "explanation": "Un ADC lineal asigna valores digitales proporcionales a la entrada analógica." },
+
+{ "epigrafe": 3, "question": "Un conversor D/A de tipo ponderado usa:", "options": ["Resistencias con valores proporcionalmente distintos", "Un banco de condensadores idénticos", "Un oscilador de referencia"], "answer": 0, "explanation": "El DAC ponderado usa resistencias de valores escalados para generar tensiones analógicas." },
+
+{ "epigrafe": 4, "question": "El MIL-STD-1553B permite hasta:", "options": ["31 terminales remotos en un bus", "16 controladores principales", "4 líneas de datos redundantes"], "answer": 0, "explanation": "El estándar 1553B soporta un controlador y hasta 31 terminales remotos en el bus." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, la velocidad de transmisión típica es:", "options": ["12,5 kbps o 100 kbps", "1 Mbps", "9600 bps"], "answer": 0, "explanation": "ARINC 429 define dos velocidades estándar: baja (12,5 kbps) y alta (100 kbps)." },
+
+{ "epigrafe": 5, "question": "Una compuerta lógica negativa se representa con:", "options": ["Un círculo en la salida de la compuerta", "Una doble barra en la entrada", "Un triángulo en la base"], "answer": 0, "explanation": "La negación lógica se simboliza con un pequeño círculo en la salida de la puerta." },
+
+{ "epigrafe": 5, "question": "Un multiplexor digital permite:", "options": ["Seleccionar una de varias entradas y dirigirla a una salida", "Multiplicar señales binarias", "Convertir datos binarios a BCD"], "answer": 0, "explanation": "El multiplexor dirige una de varias señales de entrada hacia una única salida según las selecciones." },
+
+{ "epigrafe": 6, "question": "La memoria caché L1 se encuentra:", "options": ["Dentro del propio microprocesador", "En módulos externos a la CPU", "En dispositivos de almacenamiento"], "answer": 0, "explanation": "La L1 está integrada en el microprocesador y es la más rápida y cercana a la ALU." },
+
+{ "epigrafe": 6, "question": "Un 'bus de control' en un ordenador transmite:", "options": ["Señales de sincronización y gestión de operaciones", "Datos entre CPU y memoria", "Instrucciones almacenadas en ROM"], "answer": 0, "explanation": "El bus de control gestiona señales como lectura/escritura, interrupciones y sincronización." },
+
+{ "epigrafe": 10, "question": "El recubrimiento de la fibra óptica sirve para:", "options": ["Proteger el núcleo y mantener la reflexión interna total", "Aumentar la dispersión modal", "Disminuir el índice de refracción"], "answer": 0, "explanation": "El revestimiento protege y asegura la reflexión interna total en la fibra." },
+
+{ "epigrafe": 11, "question": "Los OLED se diferencian de los LCD porque:", "options": ["Emiten luz propia sin retroiluminación", "Requieren tubos fluorescentes", "Usan giroscopios internos"], "answer": 0, "explanation": "Los OLED generan su propia luz, mientras que los LCD requieren retroiluminación." },
+
+{ "epigrafe": 12, "question": "El daño latente por ESD en componentes significa:", "options": ["Que el dispositivo puede fallar más adelante aunque funcione inicialmente", "Que el componente explota al instante", "Que mejora la conductividad interna"], "answer": 0, "explanation": "El daño latente puede no manifestarse inmediatamente, reduciendo la fiabilidad futura." },
+
+{ "epigrafe": 13, "question": "Los efectos catastróficos en software aeronáutico son aquellos que:", "options": ["Pueden causar la pérdida de la aeronave", "Solo afectan al confort de pasajeros", "No requieren certificación"], "answer": 0, "explanation": "Se consideran catastróficos los fallos de software que comprometen la seguridad de vuelo." },
+
+{ "epigrafe": 14, "question": "Una prueba de EMC en laboratorio incluye:", "options": ["Medir emisiones radiadas y conducidas de los equipos", "Exponer la aeronave a descargas de rayos reales", "Aumentar la tensión de operación en vuelo"], "answer": 0, "explanation": "Las pruebas EMC evalúan que las emisiones radiadas y conducidas estén dentro de los límites permitidos." },
+
+{ "epigrafe": 4, "question": "En el bus MIL-STD-1553B, la velocidad de transmisión es de:", "options": ["1 Mbps", "100 kbps", "1,25 Mbps"], "answer": 0, "explanation": "El estándar 1553B utiliza una velocidad fija de 1 Mbps." },
+
+{ "epigrafe": 4, "question": "La arquitectura de MIL-STD-1553B se basa en:", "options": ["Bus dual redundante", "Bus simple no redundante", "Topología en estrella"], "answer": 0, "explanation": "El estándar implementa un bus dual redundante para asegurar fiabilidad." },
+
+{ "epigrafe": 4, "question": "En 1553B, las palabras de mando son enviadas por:", "options": ["El Bus Controller", "Los Remote Terminals", "Los Data Bus Monitors"], "answer": 0, "explanation": "Las palabras de mando las emite exclusivamente el Bus Controller." },
+
+{ "epigrafe": 4, "question": "Un 'Data Bus Monitor' en 1553B se utiliza para:", "options": ["Registrar el tráfico del bus", "Autorizar transmisiones", "Amplificar la señal"], "answer": 0, "explanation": "El monitor escucha y registra el tráfico sin intervenir." },
+
+{ "epigrafe": 4, "question": "El método de acceso al bus en 1553B es:", "options": ["Determinista con control centralizado", "Aleatorio por colisión", "Distribuido entre terminales"], "answer": 0, "explanation": "El Bus Controller asigna de forma determinista el acceso a los RT." },
+
+{ "epigrafe": 4, "question": "La codificación usada en MIL-STD-1553B es:", "options": ["Manchester II", "NRZ", "PWM"], "answer": 0, "explanation": "El estándar emplea Manchester II para sincronización y detección de errores." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, los bits 30 y 31 se reservan para:", "options": ["Sign/Status Matrix (SSM)", "Label de identificación", "Bits de paridad"], "answer": 0, "explanation": "Los dos últimos bits se utilizan como Sign/Status Matrix (SSM)." },
+
+{ "epigrafe": 4, "question": "La palabra de 32 bits en ARINC 429 incluye:", "options": ["Label, datos, SSM y bit de paridad", "Comandos, reloj y sincronización", "Direcciones de memoria y CRC"], "answer": 0, "explanation": "ARINC 429 organiza su palabra en Label, campo de datos, SSM y paridad." },
+
+{ "epigrafe": 4, "question": "El modo de transmisión de ARINC 429 es:", "options": ["Unidireccional simplex", "Full-duplex", "Half-duplex"], "answer": 0, "explanation": "Cada transmisor solo envía datos; no existe canal de retorno en ARINC 429." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, un transmisor puede alimentar hasta:", "options": ["20 receptores", "5 receptores", "31 receptores"], "answer": 0, "explanation": "Un transmisor puede enviar datos a un máximo de 20 receptores simultáneamente." },
+
+{ "epigrafe": 4, "question": "La velocidad baja en ARINC 429 es:", "options": ["12,5 kbps", "2,4 kbps", "100 kbps"], "answer": 0, "explanation": "La baja velocidad definida por el estándar es de 12,5 kbps." },
+
+{ "epigrafe": 4, "question": "La velocidad alta en ARINC 429 es:", "options": ["100 kbps", "1 Mbps", "250 kbps"], "answer": 0, "explanation": "La alta velocidad definida por el estándar es 100 kbps." },
+
+{ "epigrafe": 4, "question": "En ARINC 629, el acceso al medio se controla mediante:", "options": ["Distributed Time Division Multiplexing", "Polling centralizado", "Prioridad fija"], "answer": 0, "explanation": "ARINC 629 utiliza un protocolo distribuido que evita colisiones mediante tiempos preasignados." },
+
+{ "epigrafe": 4, "question": "El número máximo de terminales en ARINC 629 es:", "options": ["128", "31", "64"], "answer": 0, "explanation": "ARINC 629 permite hasta 128 terminales en la red." },
+
+{ "epigrafe": 4, "question": "Una característica clave de ARINC 629 frente a ARINC 429 es:", "options": ["Soporta comunicación bidireccional distribuida", "Opera a menor velocidad", "No requiere codificación de línea"], "answer": 0, "explanation": "El ARINC 629 admite comunicaciones bidireccionales entre múltiples terminales." },
+
+{ "epigrafe": 4, "question": "En ARINC 664 (AFDX), la unidad de tráfico lógico es:", "options": ["Virtual Link", "Frame", "Segmento"], "answer": 0, "explanation": "Los Virtual Links definen canales lógicos con ancho de banda garantizado." },
+
+{ "epigrafe": 4, "question": "La redundancia en AFDX se implementa con:", "options": ["Dos redes físicas independientes", "Códigos de corrección de errores", "Triple modular redundancy"], "answer": 0, "explanation": "AFDX utiliza dos redes Ethernet independientes para redundancia." },
+
+{ "epigrafe": 4, "question": "La velocidad típica de transmisión en AFDX es:", "options": ["100 Mbps", "10 Mbps", "1 Gbps"], "answer": 0, "explanation": "AFDX se basa en Ethernet a 100 Mbps." },
+
+{ "epigrafe": 4, "question": "En IEEE 1394 (FireWire), el modo isócrono se utiliza para:", "options": ["Transmisión en tiempo real de video y audio", "Envío de datos con máxima prioridad", "Respaldo redundante de memoria"], "answer": 0, "explanation": "El modo isócrono garantiza un flujo constante de datos, útil para video/audio en tiempo real." },
+
+{ "epigrafe": 4, "question": "Una limitación de FireWire en aviónica es:", "options": ["No garantiza determinismo en la entrega de datos", "Requiere controladores centralizados", "No soporta transmisión de video"], "answer": 0, "explanation": "La falta de determinismo en FireWire limita su uso en sistemas críticos de control." },
+
+{ "epigrafe": 4, "question": "La topología de MIL-STD-1553B es:", "options": ["Bus con derivaciones acopladas", "Red en anillo", "Estrella centralizada"], "answer": 0, "explanation": "El estándar define un bus principal con derivaciones mediante acopladores." },
+
+{ "epigrafe": 4, "question": "Un acoplador en 1553B tiene la función de:", "options": ["Conectar equipos al bus principal", "Regenerar la señal digital", "Controlar prioridades de acceso"], "answer": 0, "explanation": "Los acopladores conectan terminales al bus principal y aíslan eléctricamente." },
+
+{ "epigrafe": 4, "question": "La paridad en MIL-STD-1553B se aplica sobre:", "options": ["Cada palabra de 16 bits de datos", "El bloque completo de transmisión", "Las palabras de comando únicamente"], "answer": 0, "explanation": "Cada palabra de 16 bits incluye un bit de paridad para detección de errores." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, los datos se transmiten en formato:", "options": ["MSB primero", "LSB primero", "Aleatorio"], "answer": 0, "explanation": "El estándar transmite los datos con el bit más significativo primero (MSB)." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, el 'gap' entre palabras garantiza:", "options": ["Separación mínima entre transmisiones", "Sincronización de reloj", "Redundancia de mensajes"], "answer": 0, "explanation": "El estándar exige un tiempo mínimo de separación entre palabras transmitidas." },
+
+{ "epigrafe": 4, "question": "Una característica del ARINC 629 es:", "options": ["Soporta múltiples terminales sin controlador central", "Cada transmisor requiere su receptor dedicado", "Opera únicamente en baja velocidad"], "answer": 0, "explanation": "El 629 permite comunicación distribuida sin necesidad de un controlador central." },
+
+{ "epigrafe": 4, "question": "En ARINC 664, los Virtual Links se identifican por:", "options": ["Identificadores únicos de flujo de datos", "Direcciones físicas de hardware", "Códigos CRC"], "answer": 0, "explanation": "Cada Virtual Link posee un identificador único que define el flujo de datos." },
+
+{ "epigrafe": 4, "question": "AFDX asegura la entrega determinista gracias a:", "options": ["Políticas de shaping de tráfico", "Codificación redundante en Manchester", "Limitación de número de receptores"], "answer": 0, "explanation": "AFDX aplica shaping y control de tráfico para garantizar entrega determinista." },
+
+{ "epigrafe": 4, "question": "La diferencia principal entre Ethernet estándar y AFDX es:", "options": ["Determinismo y redundancia en AFDX", "Mayor velocidad en AFDX", "Topología en anillo en AFDX"], "answer": 0, "explanation": "AFDX añade determinismo y redundancia frente al Ethernet comercial." },
+
+{ "epigrafe": 4, "question": "En FireWire (IEEE 1394), el modo asíncrono se utiliza para:", "options": ["Transmisiones no críticas de datos", "Canales de voz en tiempo real", "Transmisión determinista"], "answer": 0, "explanation": "El modo asíncrono transmite datos no críticos, como archivos." },
+
+{ "epigrafe": 4, "question": "El estándar FireWire ofrece velocidades de:", "options": ["100, 200 y 400 Mbps", "1 Gbps fijo", "9600 bps"], "answer": 0, "explanation": "IEEE 1394 soporta 100, 200 y 400 Mbps en sus versiones iniciales." },
+
+{ "epigrafe": 4, "question": "Un beneficio de FireWire sobre USB es:", "options": ["Soporte nativo de transmisión isócrona", "Mayor disponibilidad de hardware", "Determinismo absoluto"], "answer": 0, "explanation": "FireWire soporta transmisión isócrona, útil para audio y video." },
+
+{ "epigrafe": 4, "question": "En ARINC 664, los switches cumplen la función de:", "options": ["Gestionar Virtual Links y reenvío determinista", "Aumentar la redundancia en cables", "Proteger contra sobretensiones"], "answer": 0, "explanation": "Los switches en AFDX administran Virtual Links y reenvían tráfico de forma controlada." },
+
+{ "epigrafe": 4, "question": "El estándar ARINC 664 se basa en:", "options": ["Ethernet IEEE 802.3", "FireWire IEEE 1394", "MIL-STD-1553B"], "answer": 0, "explanation": "AFDX se implementa sobre Ethernet IEEE 802.3 modificado." },
+
+{ "epigrafe": 4, "question": "En 1553B, los mensajes pueden incluir:", "options": ["Comando, datos y estado", "Video, audio y control", "CRC, reloj y clave"], "answer": 0, "explanation": "Los mensajes incluyen palabra de comando, datos y estado." },
+
+{ "epigrafe": 4, "question": "La inmunidad de 1553B frente a EMI se consigue mediante:", "options": ["Uso de par trenzado blindado", "Codificación por salto de frecuencia", "Uso de fibra óptica"], "answer": 0, "explanation": "El estándar emplea par trenzado blindado para mejorar inmunidad a interferencias." },
+
+{ "epigrafe": 4, "question": "El número máximo de RT en 1553B es:", "options": ["31", "64", "128"], "answer": 0, "explanation": "MIL-STD-1553B permite hasta 31 terminales remotos." },
+
+{ "epigrafe": 4, "question": "En ARINC 429, el bit de paridad es:", "options": ["Paridad impar en el bit 32", "Paridad par en el bit 31", "CRC de 8 bits"], "answer": 0, "explanation": "El último bit de la palabra es de paridad impar." },
+
+{ "epigrafe": 4, "question": "En AFDX, la redundancia se valida en:", "options": ["El receptor que compara las dos tramas recibidas", "El switch central", "El transmisor que duplica el envío"], "answer": 0, "explanation": "Cada receptor compara las dos tramas redundantes y usa la válida." },
+
+{ "epigrafe": 5, "question": "Una tabla de verdad describe:", "options": ["Todas las posibles combinaciones de entradas y salidas de un circuito lógico", "La secuencia de instrucciones en un procesador", "La asignación de direcciones en memoria"], "answer": 0, "explanation": "La tabla de verdad detalla entradas y salidas posibles de un circuito lógico." },
+
+{ "epigrafe": 5, "question": "La compuerta lógica AND entrega un 1 lógico cuando:", "options": ["Todas las entradas son 1", "Todas las entradas son 0", "Las entradas son diferentes"], "answer": 0, "explanation": "La salida AND es 1 solo si todas las entradas son 1." },
+
+{ "epigrafe": 5, "question": "La compuerta OR produce un 0 lógico cuando:", "options": ["Todas las entradas son 0", "Una entrada es 1", "Todas las entradas son diferentes"], "answer": 0, "explanation": "La puerta OR solo entrega 0 si todas sus entradas son 0." },
+
+{ "epigrafe": 5, "question": "Un flip-flop T conmuta su salida cuando:", "options": ["La entrada T es 1 en un flanco de reloj", "La entrada D cambia de estado", "Ambas entradas J y K son 0"], "answer": 0, "explanation": "El flip-flop T cambia de estado cada vez que T=1 y llega un flanco de reloj." },
+
+{ "epigrafe": 5, "question": "La puerta XOR se utiliza en:", "options": ["Circuitos de detección de paridad", "Amplificadores operacionales", "Filtros pasa-banda"], "answer": 0, "explanation": "La XOR es útil para detectar bits diferentes, como en detección de paridad." },
+
+{ "epigrafe": 5, "question": "Un sumador completo (full adder) suma:", "options": ["Dos bits y un acarreo de entrada", "Tres números binarios de 4 bits", "Un byte completo"], "answer": 0, "explanation": "El full adder suma dos bits y un acarreo, generando suma y acarreo de salida." },
+
+{ "epigrafe": 5, "question": "Un decodificador binario convierte:", "options": ["Un número binario en una salida activa entre varias", "Una señal analógica en digital", "Un dato en código ASCII"], "answer": 0, "explanation": "El decodificador activa una única salida en función del valor binario de entrada." },
+
+{ "epigrafe": 5, "question": "Un multiplexor 4:1 tiene:", "options": ["4 entradas, 2 selectores y 1 salida", "4 salidas, 1 entrada y 2 selectores", "4 salidas y 1 selector"], "answer": 0, "explanation": "Un multiplexor 4:1 dispone de 4 entradas, 1 salida y 2 selectores de control." },
+
+{ "epigrafe": 5, "question": "Un demultiplexor 1:4 convierte:", "options": ["Una entrada en una de 4 salidas posibles", "Cuatro entradas en una salida", "Un código ASCII en binario"], "answer": 0, "explanation": "El demultiplexor dirige una única entrada hacia una de varias salidas." },
+
+{ "epigrafe": 5, "question": "La compuerta lógica buffer inversor se representa como:", "options": ["Un triángulo con un círculo en la salida", "Un cuadrado con dos entradas", "Un símbolo de diodo"], "answer": 0, "explanation": "El buffer inversor es un triángulo con círculo, equivalente a NOT." },
+
+{ "epigrafe": 5, "question": "Un latch transparente se diferencia de un flip-flop porque:", "options": ["Cambia de estado mientras la señal de control esté activa", "Solo responde en flancos de reloj", "No puede almacenar información"], "answer": 0, "explanation": "El latch es transparente cuando la señal de control está activa, a diferencia del flip-flop." },
+
+{ "epigrafe": 5, "question": "Un registro de desplazamiento permite:", "options": ["Mover los bits almacenados hacia izquierda o derecha", "Incrementar automáticamente el valor binario", "Convertir datos binarios a analógicos"], "answer": 0, "explanation": "Los registros de desplazamiento mueven los bits a izquierda o derecha en cada ciclo." },
+
+{ "epigrafe": 5, "question": "Las puertas lógicas universales son:", "options": ["NAND y NOR", "AND y OR", "XOR y XNOR"], "answer": 0, "explanation": "Las puertas NAND y NOR pueden implementar cualquier función lógica." },
+
+{ "epigrafe": 5, "question": "Un circuito secuencial se caracteriza porque:", "options": ["Su salida depende de entradas actuales y estados previos", "Su salida depende solo de entradas actuales", "Siempre funciona sin reloj"], "answer": 0, "explanation": "Los secuenciales usan memoria interna para depender de estados previos." },
+
+{ "epigrafe": 5, "question": "Un comparador digital produce:", "options": ["Una salida indicando si dos números son iguales o no", "Una suma de entradas binarias", "Un desplazamiento de registros"], "answer": 0, "explanation": "Los comparadores determinan si dos números binarios son iguales." },
+
+{ "epigrafe": 5, "question": "El 'hazard' en un circuito lógico se refiere a:", "options": ["Cambios no deseados en la salida por retardos", "Una condición de sobrecarga de potencia", "La saturación de registros"], "answer": 0, "explanation": "Los hazards son transiciones indeseadas causadas por retardos en compuertas." },
+
+{ "epigrafe": 6, "question": "El bus de datos de un ordenador transporta:", "options": ["Información entre CPU, memoria y periféricos", "Señales de control", "Direcciones de memoria"], "answer": 0, "explanation": "El bus de datos lleva la información entre los distintos bloques del sistema." },
+
+{ "epigrafe": 6, "question": "El bus de direcciones de un procesador de 16 bits puede direccionar:", "options": ["65.536 posiciones", "16 posiciones", "256 posiciones"], "answer": 0, "explanation": "Con 16 bits de dirección se acceden a 2^16 = 65.536 posiciones de memoria." },
+
+{ "epigrafe": 6, "question": "La caché L2 se diferencia de la L1 porque:", "options": ["Está fuera del núcleo del procesador y es más lenta", "Está integrada y es la más rápida", "Es exclusivamente para instrucciones"], "answer": 0, "explanation": "La L2 suele estar fuera del núcleo y es más lenta que la L1." },
+
+{ "epigrafe": 6, "question": "La CPU se compone principalmente de:", "options": ["Unidad de control, ALU y registros", "Memoria RAM, ROM y caché", "Puertas NAND y NOR"], "answer": 0, "explanation": "Los tres bloques básicos de la CPU son la unidad de control, la ALU y los registros." },
+
+{ "epigrafe": 6, "question": "En la memoria ROM, el contenido:", "options": ["Se mantiene aunque se corte la energía", "Se borra al apagar el sistema", "Se refresca periódicamente"], "answer": 0, "explanation": "La ROM es no volátil, conserva datos sin energía." },
+
+{ "epigrafe": 6, "question": "La memoria caché mejora el rendimiento porque:", "options": ["Reduce la latencia de acceso a datos frecuentes", "Almacena más información que la RAM", "Funciona como respaldo de la ROM"], "answer": 0, "explanation": "La caché guarda datos de uso frecuente, reduciendo la latencia frente a la RAM." },
+
+{ "epigrafe": 6, "question": "La memoria virtual permite:", "options": ["Usar parte del disco como extensión de la RAM", "Aumentar físicamente la capacidad de la RAM", "Duplicar la velocidad del procesador"], "answer": 0, "explanation": "La memoria virtual utiliza espacio en disco para simular RAM adicional." },
+
+{ "epigrafe": 6, "question": "El registro contador de programa (PC) almacena:", "options": ["La dirección de la siguiente instrucción a ejecutar", "Los resultados de operaciones aritméticas", "El número total de ciclos ejecutados"], "answer": 0, "explanation": "El PC apunta a la próxima instrucción que ejecutará la CPU." },
+
+{ "epigrafe": 6, "question": "Un circuito integrado SSI se caracteriza por:", "options": ["Contener pocas puertas lógicas en un chip", "Integrar más de 10.000 transistores", "Utilizar encapsulado cerámico siempre"], "answer": 0, "explanation": "SSI (Small Scale Integration) incluye pocas puertas en un mismo chip." },
+
+{ "epigrafe": 6, "question": "Un microcontrolador se diferencia de un microprocesador porque:", "options": ["Incluye CPU, memoria y periféricos integrados", "Solo contiene la ALU", "No necesita programas para funcionar"], "answer": 0, "explanation": "El microcontrolador es un sistema completo con CPU, memoria y periféricos integrados." },
+
+{ "epigrafe": 6, "question": "En la jerarquía de memoria, la más rápida y costosa es:", "options": ["Registros de CPU", "Memoria RAM", "Memoria secundaria"], "answer": 0, "explanation": "Los registros son la memoria más rápida y costosa del sistema." },
+
+{ "epigrafe": 10, "question": "Una fibra óptica monomodo se caracteriza por:", "options": ["Transmitir un único modo de luz con baja atenuación", "Permitir múltiples modos de propagación", "Usar núcleo de gran diámetro"], "answer": 0, "explanation": "La fibra monomodo transmite un solo modo de luz, reduciendo dispersión y pérdidas." },
+
+{ "epigrafe": 10, "question": "La principal ventaja de la fibra óptica frente al cable eléctrico es:", "options": ["Mayor ancho de banda e inmunidad a interferencias", "Menor necesidad de aislamiento mecánico", "Mayor resistencia al fuego"], "answer": 0, "explanation": "La fibra óptica soporta gran ancho de banda y no se ve afectada por EMI." },
+
+{ "epigrafe": 10, "question": "Un conector tipo ST en fibra óptica se caracteriza por:", "options": ["Conexión mediante bayoneta", "Acoplamiento por rosca", "Uso exclusivo en monomodo"], "answer": 0, "explanation": "El conector ST utiliza sistema de bayoneta para fijación rápida." },
+
+{ "epigrafe": 10, "question": "El término 'atenuación' en fibra óptica significa:", "options": ["Pérdida de potencia óptica por unidad de longitud", "Variación en el índice de refracción", "Incremento de señal por amplificación"], "answer": 0, "explanation": "La atenuación es la pérdida de potencia óptica por distancia." },
+
+{ "epigrafe": 10, "question": "Un acoplador óptico en aviación se emplea para:", "options": ["Dividir o combinar señales de luz", "Convertir luz en electricidad", "Evitar la dispersión modal"], "answer": 0, "explanation": "Los acopladores permiten dividir o combinar haces de luz en la red óptica." },
+
+{ "epigrafe": 10, "question": "El índice escalonado en fibras multimodo provoca:", "options": ["Mayor dispersión modal", "Menor dispersión cromática", "Total eliminación de pérdidas"], "answer": 0, "explanation": "En fibras multimodo de índice escalonado se produce más dispersión modal." },
+
+{ "epigrafe": 10, "question": "La técnica WDM en fibra óptica permite:", "options": ["Multiplexar varias longitudes de onda en una misma fibra", "Reducir la velocidad de transmisión", "Usar distintos tipos de conectores"], "answer": 0, "explanation": "Wavelength Division Multiplexing combina varias señales ópticas en una sola fibra." },
+
+{ "epigrafe": 10, "question": "La dispersión cromática en fibra óptica se debe a:", "options": ["Diferente velocidad de propagación según la longitud de onda", "Defectos en el conector", "Reflexiones múltiples en el núcleo"], "answer": 0, "explanation": "Cada longitud de onda viaja a diferente velocidad, generando dispersión cromática." },
+
+{ "epigrafe": 10, "question": "Una ventaja de la fibra óptica en aeronaves es:", "options": ["Reducción de peso en el cableado", "Mayor resistencia al calor", "Funcionamiento sin conectores"], "answer": 0, "explanation": "La fibra óptica reduce el peso del cableado, lo cual es crítico en aviación." },
+
+{ "epigrafe": 10, "question": "La ventana de transmisión más usada en fibra monomodo es:", "options": ["1550 nm", "450 nm", "650 nm"], "answer": 0, "explanation": "La banda de 1550 nm es la más utilizada por su baja atenuación." },
+
+{ "epigrafe": 10, "question": "Un terminal optoelectrónico convierte:", "options": ["Señales eléctricas en ópticas y viceversa", "Señales digitales en analógicas", "Ondas electromagnéticas en acústicas"], "answer": 0, "explanation": "Los terminales optoelectrónicos permiten la conversión entre señales eléctricas y ópticas." },
+
+{ "epigrafe": 10, "question": "El parámetro 'NA' en fibra óptica hace referencia a:", "options": ["Apertura numérica de la fibra", "Nivel de atenuación", "Número de acopladores"], "answer": 0, "explanation": "NA es la apertura numérica, que mide la capacidad de captación de luz." },
+
+{ "epigrafe": 10, "question": "Un inconveniente de la fibra óptica es:", "options": ["Fragilidad mecánica", "Sensibilidad a interferencias electromagnéticas", "Gran peso del cable"], "answer": 0, "explanation": "La fibra óptica es más frágil mecánicamente que el cable eléctrico." },
+
+{ "epigrafe": 11, "question": "Un tubo de rayos catódicos (CRT) funciona desviando el haz de electrones mediante:", "options": ["Campos eléctricos y magnéticos", "Cristales líquidos", "Filtros ópticos"], "answer": 0, "explanation": "El CRT utiliza campos eléctricos y magnéticos para desviar el haz hacia la pantalla fluorescente." },
+
+{ "epigrafe": 11, "question": "Una desventaja de los CRT frente a LCD es:", "options": ["Mayor consumo y volumen", "Menor contraste", "No permiten color"], "answer": 0, "explanation": "Los CRT consumen más energía y ocupan más espacio que los LCD." },
+
+{ "epigrafe": 11, "question": "Los LED emiten luz debido a:", "options": ["Recombinación de electrones y huecos en un semiconductor", "Fluorescencia inducida", "Descarga eléctrica en un gas"], "answer": 0, "explanation": "La emisión se produce por recombinación electrón-hueco en materiales semiconductores." },
+
+{ "epigrafe": 11, "question": "Una ventaja de las pantallas LCD frente a los CRT es:", "options": ["Menor peso y consumo", "Mayor radiación electromagnética", "Mayor necesidad de blindaje"], "answer": 0, "explanation": "Las LCD son más ligeras y consumen menos energía." },
+
+{ "epigrafe": 11, "question": "En una LCD de matriz activa, cada píxel se controla mediante:", "options": ["Transistores TFT", "Filtros pasivos", "Cristales piezoeléctricos"], "answer": 0, "explanation": "Cada píxel está controlado por un transistor de película fina (TFT)." },
+
+{ "epigrafe": 11, "question": "Un inconveniente de los LED en pantallas es:", "options": ["Ángulo de visión limitado", "Imposibilidad de generar color", "Mayor tamaño requerido"], "answer": 0, "explanation": "El ángulo de visión limitado puede ser una desventaja en pantallas LED." },
+
+{ "epigrafe": 11, "question": "La retroiluminación en pantallas LCD suele realizarse con:", "options": ["LEDs blancos", "Rayos catódicos", "Filtros polarizadores"], "answer": 0, "explanation": "Las pantallas LCD modernas se retroiluminan con LEDs blancos." },
+
+{ "epigrafe": 11, "question": "Una característica de los CRT es:", "options": ["Tiempo de respuesta muy rápido", "Alta eficiencia energética", "Portabilidad"], "answer": 0, "explanation": "Los CRT destacan por tiempos de respuesta muy rápidos frente a LCD." },
+
+{ "epigrafe": 12, "question": "Un dispositivo sensible a descargas electrostáticas (ESD) es:", "options": ["MOSFET", "Resistencia de carbón", "Inductor"], "answer": 0, "explanation": "Los MOSFET son muy sensibles a descargas electrostáticas." },
+
+{ "epigrafe": 12, "question": "Una descarga electrostática puede causar:", "options": ["Daño permanente en semiconductores", "Mayor conductividad en aislantes", "Incremento de vida útil de un circuito"], "answer": 0, "explanation": "Las descargas electrostáticas dañan permanentemente dispositivos sensibles." },
+
+{ "epigrafe": 12, "question": "Un entorno controlado antiestático debe incluir:", "options": ["Pavimento conductor y humedad controlada", "Ventilación natural", "Paredes aislantes de madera"], "answer": 0, "explanation": "El pavimento conductor y la humedad reducen el riesgo de ESD." },
+
+{ "epigrafe": 12, "question": "La función de las pulseras antiestáticas es:", "options": ["Conectar al operario a tierra para evitar acumulación de carga", "Proteger contra descargas eléctricas de red", "Medir la resistencia de contacto"], "answer": 0, "explanation": "Las pulseras conectan al operario con tierra, evitando descargas electrostáticas." },
+
+{ "epigrafe": 12, "question": "Los ionizadores en puestos antiestáticos sirven para:", "options": ["Neutralizar cargas en el aire", "Reducir el ruido eléctrico", "Aumentar la resistencia superficial"], "answer": 0, "explanation": "Los ionizadores neutralizan cargas presentes en el aire." },
+
+{ "epigrafe": 12, "question": "Los puestos de prueba de toma de tierra permiten:", "options": ["Verificar la continuidad de conexiones antiestáticas", "Medir la capacitancia de los condensadores", "Probar fusibles eléctricos"], "answer": 0, "explanation": "Estos puestos permiten verificar que las conexiones a tierra funcionen." },
+
+{ "epigrafe": 12, "question": "La manipulación especial de dispositivos ESD incluye:", "options": ["Uso de bolsas antiestáticas", "Almacenamiento en sobres de papel", "Aislamiento en cajas de madera"], "answer": 0, "explanation": "Los dispositivos sensibles deben guardarse en bolsas antiestáticas." },
+
+{ "epigrafe": 12, "question": "Un riesgo típico de la electricidad estática es:", "options": ["Encendido de vapores inflamables", "Sobrecarga de transformadores", "Aumento de inductancia en cables"], "answer": 0, "explanation": "Las descargas pueden provocar incendios en presencia de vapores inflamables." },
+
+{ "epigrafe": 13, "question": "El control de gestión de software en aeronaves busca:", "options": ["Asegurar que las versiones estén identificadas y certificadas", "Reducir el consumo energético de procesadores", "Optimizar los algoritmos de vuelo"], "answer": 0, "explanation": "El control asegura que solo versiones verificadas y certificadas estén en uso." },
+
+{ "epigrafe": 13, "question": "Un riesgo de software no certificado en aviónica es:", "options": ["Efectos catastróficos en vuelo", "Mayor durabilidad de hardware", "Mejor rendimiento energético"], "answer": 0, "explanation": "El software no certificado puede causar fallos críticos en vuelo." },
+
+{ "epigrafe": 13, "question": "Un requisito de aeronavegabilidad en software es:", "options": ["Cumplimiento de estándares como DO-178", "Uso exclusivo de código abierto", "Compatibilidad con todas las plataformas"], "answer": 0, "explanation": "El estándar DO-178 establece requisitos de certificación para software en aeronaves." },
+
+{ "epigrafe": 14, "question": "La interferencia electromagnética (EMI) en aeronaves puede originarse por:", "options": ["Motores eléctricos, transmisores de radio y descargas atmosféricas", "Sistemas hidráulicos", "Variaciones en la presión barométrica"], "answer": 0, "explanation": "Las fuentes comunes de EMI incluyen motores, transmisores y fenómenos naturales como rayos." },
+
+{ "epigrafe": 14, "question": "La protección frente a EMI en cableado de aeronaves se logra principalmente con:", "options": ["Blindaje y trenzado de cables", "Uso de plástico aislante grueso", "Disposición en paralelo de conductores"], "answer": 0, "explanation": "El blindaje y trenzado minimizan la captación de interferencias electromagnéticas." },
+
+{ "epigrafe": 14, "question": "Un campo radiado de alta intensidad (HIRF) puede provocar:", "options": ["Mal funcionamiento de sistemas electrónicos sensibles", "Aumento de temperatura en cabina", "Mayor consumo de combustible"], "answer": 0, "explanation": "El HIRF induce corrientes parásitas que alteran sistemas electrónicos." },
+
+{ "epigrafe": 14, "question": "La certificación frente a HIRF en aeronaves implica:", "options": ["Pruebas de inmunidad en sistemas electrónicos críticos", "Uso de recubrimientos cerámicos en fuselaje", "Sustitución de antenas por fibra óptica"], "answer": 0, "explanation": "Se realizan pruebas de inmunidad para garantizar que sistemas críticos no fallen ante campos de alta intensidad." },
+
+{ "epigrafe": 14, "question": "La principal medida de protección contra rayos en aeronaves es:", "options": ["Conductividad del fuselaje para desviar la corriente", "Aislamiento completo del fuselaje", "Instalación de pararrayos en cabina"], "answer": 0, "explanation": "El fuselaje metálico actúa como una jaula de Faraday desviando la corriente del rayo." },
+
+{ "epigrafe": 14, "question": "El impacto de un rayo en una aeronave suele entrar y salir por:", "options": ["Dos puntos opuestos de la estructura", "La antena de comunicaciones", "El tren de aterrizaje"], "answer": 0, "explanation": "La corriente del rayo entra por un punto y sale por otro opuesto del fuselaje." },
+
+{ "epigrafe": 14, "question": "La compatibilidad electromagnética (EMC) busca:", "options": ["Que los sistemas funcionen juntos sin interferirse", "Aumentar la velocidad de transmisión", "Eliminar por completo la radiación"], "answer": 0, "explanation": "La EMC asegura que distintos equipos operen sin interferirse mutuamente." },
+
+{ "epigrafe": 14, "question": "Un método para mejorar la EMC es:", "options": ["Filtrado y apantallamiento de señales", "Uso de cables más largos", "Reducir la frecuencia de muestreo"], "answer": 0, "explanation": "El filtrado y apantallamiento reducen interferencias y mejoran compatibilidad." },
+
+{ "epigrafe": 14, "question": "Los materiales compuestos requieren medidas adicionales contra rayos porque:", "options": ["No conducen la electricidad tan bien como el aluminio", "Aumentan la radiación emitida", "Absorben demasiada humedad"], "answer": 0, "explanation": "Los compuestos no son tan conductores, por lo que necesitan mallas metálicas para desviar corrientes." },
+
+{ "epigrafe": 14, "question": "La jaula de Faraday en aeronaves protege contra:", "options": ["Campos eléctricos externos", "Presión atmosférica", "Vibraciones estructurales"], "answer": 0, "explanation": "El fuselaje actúa como jaula de Faraday, protegiendo contra campos eléctricos externos." },
+
+{ "epigrafe": 14, "question": "Una prueba típica de certificación EMC consiste en:", "options": ["Exponer equipos a señales radiadas y conducidas", "Incrementar la temperatura de los sistemas", "Reducir la tensión de alimentación"], "answer": 0, "explanation": "Se someten los equipos a señales radiadas y conducidas para verificar su inmunidad." }
+]
+
+
+
+
+
+
+
+
