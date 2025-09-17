@@ -214,8 +214,7 @@ fetch("preguntas.json")
     updateStats();
   })
   .catch(err => console.error("Error cargando preguntas.json", err));
-  let reps = JSON.parse(localStorage.getItem('reps')) || {};
-
+  
   function saveBank() { localStorage.setItem('qBank', JSON.stringify(allQuestions)); }
   function saveReps() { localStorage.setItem('reps', JSON.stringify(reps)); }
 
