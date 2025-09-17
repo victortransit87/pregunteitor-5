@@ -202,10 +202,18 @@
   }
 
   // Banco por defecto (IDs como strings para consistencia)
-  let allQuestions = JSON.parse(localStorage.getItem('qBank')) || [
-    {id: generateUID(), epigrafe: 15, question: "¿prueba?", options:["Protón","Electrón","Neutrón"], answer:1, explanation:"El electrón tiene carga negativa."},
-    {id: generateUID(), epigrafe: 15, question: "¿Prueba2?", options:["Arranca con más potencia","No arranca por falta de campo giratorio","Funciona normalmente pero con menor velocidad"], answer:1, explanation:"Con una sola fase no hay campo giratorio."}
-  ];
+let allQuestions = [];
+let reps = JSON.parse(localStorage.getItem('reps')) || {};
+
+fetch("preguntas.json")
+  .then(r => r.json())
+  .then(data => {
+    allQuestions = data;
+    console.log("Preguntas cargadas:", allQuestions);
+    populateEpigrafes();
+    updateStats();
+  })
+  .catch(err => console.error("Error cargando preguntas.json", err));
   let reps = JSON.parse(localStorage.getItem('reps')) || {};
 
   function saveBank() { localStorage.setItem('qBank', JSON.stringify(allQuestions)); }
