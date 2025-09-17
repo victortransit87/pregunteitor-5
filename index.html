@@ -208,13 +208,17 @@ let reps = JSON.parse(localStorage.getItem('reps')) || {};
 fetch("preguntas.json")
   .then(r => r.json())
   .then(data => {
-    allQuestions = data;
+    // Añadir IDs si no existen
+    allQuestions = data.map(q => ({
+      ...q,
+      id: q.id || generateUID()
+    }));
     console.log("Preguntas cargadas:", allQuestions);
     populateEpigrafes();
     updateStats();
   })
   .catch(err => console.error("Error cargando preguntas.json", err));
-  
+
   function saveBank() { localStorage.setItem('qBank', JSON.stringify(allQuestions)); }
   function saveReps() { localStorage.setItem('reps', JSON.stringify(reps)); }
 
